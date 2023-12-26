@@ -1,3248 +1,3248 @@
 const worldRanking = [
   {
     "rank": 1,
-    "ranking-institution-title": "Massachusetts Institute of Technology",
+    "ranking_institution_title": "Massachusetts Institute of Technology",
     "location": "United States",
     "Overall scores": 94.8,
     "Research Quality Score": 92.2,
     "Industry Score": 99.9,
-    "International Outlook": 89.6,
-    "Research Environment Score": 96.5,
-    "Teaching Score": 96
+    "international_outlook": 89.6,
+    "research_environment": 96.5,
+    "teaching_score": 96
   },
   {
     "rank": 2,
-    "ranking-institution-title": "Stanford University",
+    "ranking_institution_title": "Stanford University",
     "location": "United States",
     "Overall scores": 93.4,
     "Research Quality Score": 91.9,
     "Industry Score": 100,
-    "International Outlook": 83.5,
-    "Research Environment Score": 91.8,
-    "Teaching Score": 98.2
+    "international_outlook": 83.5,
+    "research_environment": 91.8,
+    "teaching_score": 98.2
   },
   {
     "rank": 3,
-    "ranking-institution-title": "Harvard University",
+    "ranking_institution_title": "Harvard University",
     "location": "United States",
     "Overall scores": 92.4,
     "Research Quality Score": 95.2,
     "Industry Score": 69.8,
-    "International Outlook": 82.1,
-    "Research Environment Score": 93.4,
-    "Teaching Score": 95
+    "international_outlook": 82.1,
+    "research_environment": 93.4,
+    "teaching_score": 95
   },
   {
     "rank": 4,
-    "ranking-institution-title": "University of California, Berkeley",
+    "ranking_institution_title": "University of California, Berkeley",
     "location": "United States",
     "Overall scores": 91.9,
     "Research Quality Score": 95.2,
     "Industry Score": 90.6,
-    "International Outlook": 83.5,
-    "Research Environment Score": 92.7,
-    "Teaching Score": 91.1
+    "international_outlook": 83.5,
+    "research_environment": 92.7,
+    "teaching_score": 91.1
   },
   {
     "rank": 5,
-    "ranking-institution-title": "University of Cambridge",
+    "ranking_institution_title": "University of Cambridge",
     "location": "United Kingdom",
     "Overall scores": 91.7,
     "Research Quality Score": 86.6,
     "Industry Score": 76.7,
-    "International Outlook": 95.4,
-    "Research Environment Score": 94.6,
-    "Teaching Score": 93.8
+    "international_outlook": 95.4,
+    "research_environment": 94.6,
+    "teaching_score": 93.8
   },
   {
     "rank": 5,
-    "ranking-institution-title": "University of Oxford",
+    "ranking_institution_title": "University of Oxford",
     "location": "United Kingdom",
     "Overall scores": 91.7,
     "Research Quality Score": 81.7,
     "Industry Score": 89.4,
-    "International Outlook": 94.5,
-    "Research Environment Score": 97.4,
-    "Teaching Score": 93.5
+    "international_outlook": 94.5,
+    "research_environment": 97.4,
+    "teaching_score": 93.5
   },
   {
     "rank": 7,
-    "ranking-institution-title": "The University of Chicago",
+    "ranking_institution_title": "The University of Chicago",
     "location": "United States",
     "Overall scores": 91.3,
     "Research Quality Score": 95.8,
     "Industry Score": 67.6,
-    "International Outlook": 79,
-    "Research Environment Score": 93.5,
-    "Teaching Score": 91.9
+    "international_outlook": 79,
+    "research_environment": 93.5,
+    "teaching_score": 91.9
   },
   {
     "rank": 8,
-    "ranking-institution-title": "Tsinghua University",
+    "ranking_institution_title": "Tsinghua University",
     "location": "China",
     "Overall scores": 90,
     "Research Quality Score": 82.5,
     "Industry Score": 99.5,
-    "International Outlook": 77.7,
-    "Research Environment Score": 95.2,
-    "Teaching Score": 93.2
+    "international_outlook": 77.7,
+    "research_environment": 95.2,
+    "teaching_score": 93.2
   },
   {
     "rank": 9,
-    "ranking-institution-title": "Yale University",
+    "ranking_institution_title": "Yale University",
     "location": "United States",
     "Overall scores": 89.5,
     "Research Quality Score": 86.9,
     "Industry Score": 67.8,
-    "International Outlook": 85.1,
-    "Research Environment Score": 89.3,
-    "Teaching Score": 96.1
+    "international_outlook": 85.1,
+    "research_environment": 89.3,
+    "teaching_score": 96.1
   },
   {
     "rank": 10,
-    "ranking-institution-title": "Peking University",
+    "ranking_institution_title": "Peking University",
     "location": "China",
     "Overall scores": 89.2,
     "Research Quality Score": 74.5,
     "Industry Score": 95.4,
-    "International Outlook": 94,
-    "Research Environment Score": 91.8,
-    "Teaching Score": 96.3
+    "international_outlook": 94,
+    "research_environment": 91.8,
+    "teaching_score": 96.3
   },
   {
     "rank": 11,
-    "ranking-institution-title": "London School of Economics and Political Science",
+    "ranking_institution_title": "London School of Economics and Political Science",
     "location": "United Kingdom",
     "Overall scores": 87.8,
     "Research Quality Score": 81.9,
     "Industry Score": 68.1,
-    "International Outlook": 95.7,
-    "Research Environment Score": 94.5,
-    "Teaching Score": 85.9
+    "international_outlook": 95.7,
+    "research_environment": 94.5,
+    "teaching_score": 85.9
   },
   {
     "rank": 12,
-    "ranking-institution-title": "University of Pennsylvania",
+    "ranking_institution_title": "University of Pennsylvania",
     "location": "United States",
     "Overall scores": 87.5,
     "Research Quality Score": 86.9,
     "Industry Score": 71.4,
-    "International Outlook": 74.9,
-    "Research Environment Score": 89.2,
-    "Teaching Score": 92.2
+    "international_outlook": 74.9,
+    "research_environment": 89.2,
+    "teaching_score": 92.2
   },
   {
     "rank": 13,
-    "ranking-institution-title": "Northwestern University",
+    "ranking_institution_title": "Northwestern University",
     "location": "United States",
     "Overall scores": 86.8,
     "Research Quality Score": 86.2,
     "Industry Score": 77.2,
-    "International Outlook": 79.8,
-    "Research Environment Score": 89.4,
-    "Teaching Score": 88
+    "international_outlook": 79.8,
+    "research_environment": 89.4,
+    "teaching_score": 88
   },
   {
     "rank": 14,
-    "ranking-institution-title": "Columbia University",
+    "ranking_institution_title": "Columbia University",
     "location": "United States",
     "Overall scores": 86.5,
     "Research Quality Score": 79.2,
     "Industry Score": 77.3,
-    "International Outlook": 87.7,
-    "Research Environment Score": 87.8,
-    "Teaching Score": 92
+    "international_outlook": 87.7,
+    "research_environment": 87.8,
+    "teaching_score": 92
   },
   {
     "rank": 15,
-    "ranking-institution-title": "National University of Singapore",
+    "ranking_institution_title": "National University of Singapore",
     "location": "Singapore",
     "Overall scores": 85.7,
     "Research Quality Score": 79.7,
     "Industry Score": 97.9,
-    "International Outlook": 80.4,
-    "Research Environment Score": 95.9,
-    "Teaching Score": 79.9
+    "international_outlook": 80.4,
+    "research_environment": 95.9,
+    "teaching_score": 79.9
   },
   {
     "rank": 16,
-    "ranking-institution-title": "ETH Zurich",
+    "ranking_institution_title": "ETH Zurich",
     "location": "Switzerland",
     "Overall scores": 83.5,
     "Research Quality Score": 87.1,
     "Industry Score": 99.5,
-    "International Outlook": 96.4,
-    "Research Environment Score": 83.1,
-    "Teaching Score": 75.2
+    "international_outlook": 96.4,
+    "research_environment": 83.1,
+    "teaching_score": 75.2
   },
   {
     "rank": 17,
-    "ranking-institution-title": "New York University",
+    "ranking_institution_title": "New York University",
     "location": "United States",
     "Overall scores": 83.3,
     "Research Quality Score": 75.7,
     "Industry Score": 68.6,
-    "International Outlook": 89.3,
-    "Research Environment Score": 90.6,
-    "Teaching Score": 82.2
+    "international_outlook": 89.3,
+    "research_environment": 90.6,
+    "teaching_score": 82.2
   },
   {
     "rank": 18,
-    "ranking-institution-title": "Duke University",
+    "ranking_institution_title": "Duke University",
     "location": "United States",
     "Overall scores": 82.8,
     "Research Quality Score": 80.2,
     "Industry Score": 100,
-    "International Outlook": 83,
-    "Research Environment Score": 87.5,
-    "Teaching Score": 77.7
+    "international_outlook": 83,
+    "research_environment": 87.5,
+    "teaching_score": 77.7
   },
   {
     "rank": 19,
-    "ranking-institution-title": "University of California, Los Angeles",
+    "ranking_institution_title": "University of California, Los Angeles",
     "location": "United States",
     "Overall scores": 81.2,
     "Research Quality Score": 79.2,
     "Industry Score": 67.5,
-    "International Outlook": 75.8,
-    "Research Environment Score": 86.4,
-    "Teaching Score": 80.9
+    "international_outlook": 75.8,
+    "research_environment": 86.4,
+    "teaching_score": 80.9
   },
   {
     "rank": 20,
-    "ranking-institution-title": "Cornell University",
+    "ranking_institution_title": "Cornell University",
     "location": "United States",
     "Overall scores": 81.1,
     "Research Quality Score": 80.7,
     "Industry Score": 67.5,
-    "International Outlook": 78.2,
-    "Research Environment Score": 84.1,
-    "Teaching Score": 81
+    "international_outlook": 78.2,
+    "research_environment": 84.1,
+    "teaching_score": 81
   },
   {
     "rank": 21,
-    "ranking-institution-title": "University of Michigan-Ann Arbor",
+    "ranking_institution_title": "University of Michigan-Ann Arbor",
     "location": "United States",
     "Overall scores": 80.8,
     "Research Quality Score": 81.1,
     "Industry Score": 74.7,
-    "International Outlook": 73.1,
-    "Research Environment Score": 85.6,
-    "Teaching Score": 78.7
+    "international_outlook": 73.1,
+    "research_environment": 85.6,
+    "teaching_score": 78.7
   },
   {
     "rank": 22,
-    "ranking-institution-title": "Erasmus University Rotterdam",
+    "ranking_institution_title": "Erasmus University Rotterdam",
     "location": "Netherlands",
     "Overall scores": 78.3,
     "Research Quality Score": 81.7,
     "Industry Score": 75.7,
-    "International Outlook": 89,
-    "Research Environment Score": 85.1,
-    "Teaching Score": 65.5
+    "international_outlook": 89,
+    "research_environment": 85.1,
+    "teaching_score": 65.5
   },
   {
     "rank": 23,
-    "ranking-institution-title": "UCL",
+    "ranking_institution_title": "UCL",
     "location": "United Kingdom",
     "Overall scores": 76.7,
     "Research Quality Score": 80.2,
     "Industry Score": 67.4,
-    "International Outlook": 94.5,
-    "Research Environment Score": 80.3,
-    "Teaching Score": 66
+    "international_outlook": 94.5,
+    "research_environment": 80.3,
+    "teaching_score": 66
   },
   {
     "rank": 24,
-    "ranking-institution-title": "University of Toronto",
+    "ranking_institution_title": "University of Toronto",
     "location": "Canada",
     "Overall scores": 75,
     "Research Quality Score": 77.3,
     "Industry Score": 67.9,
-    "International Outlook": 92,
-    "Research Environment Score": 76.8,
-    "Teaching Score": 67.2
+    "international_outlook": 92,
+    "research_environment": 76.8,
+    "teaching_score": 67.2
   },
   {
     "rank": 25,
-    "ranking-institution-title": "Shanghai Jiao Tong University",
+    "ranking_institution_title": "Shanghai Jiao Tong University",
     "location": "China",
     "Overall scores": 74.7,
     "Research Quality Score": 75.6,
     "Industry Score": 99.8,
-    "International Outlook": 86.8,
-    "Research Environment Score": 70.5,
-    "Teaching Score": 71.4
+    "international_outlook": 86.8,
+    "research_environment": 70.5,
+    "teaching_score": 71.4
   },
   {
     "rank": 26,
-    "ranking-institution-title": "University of Warwick",
+    "ranking_institution_title": "University of Warwick",
     "location": "United Kingdom",
     "Overall scores": 73.7,
     "Research Quality Score": 83.5,
     "Industry Score": 66,
-    "International Outlook": 95.9,
-    "Research Environment Score": 65.9,
-    "Teaching Score": 68.1
+    "international_outlook": 95.9,
+    "research_environment": 65.9,
+    "teaching_score": 68.1
   },
   {
     "rank": 27,
-    "ranking-institution-title": "Technical University of Munich",
+    "ranking_institution_title": "Technical University of Munich",
     "location": "Germany",
     "Overall scores": 73.2,
     "Research Quality Score": 79.8,
     "Industry Score": 99.3,
-    "International Outlook": 80.3,
-    "Research Environment Score": 71.7,
-    "Teaching Score": 63.8
+    "international_outlook": 80.3,
+    "research_environment": 71.7,
+    "teaching_score": 63.8
   },
   {
     "rank": 28,
-    "ranking-institution-title": "Copenhagen Business School",
+    "ranking_institution_title": "Copenhagen Business School",
     "location": "Denmark",
     "Overall scores": 72,
     "Research Quality Score": 86.4,
     "Industry Score": 53.5,
-    "International Outlook": 83.8,
-    "Research Environment Score": 71.1,
-    "Teaching Score": 60.2
+    "international_outlook": 83.8,
+    "research_environment": 71.1,
+    "teaching_score": 60.2
   },
   {
     "rank": 28,
-    "ranking-institution-title": "The University of Tokyo",
+    "ranking_institution_title": "The University of Tokyo",
     "location": "Japan",
     "Overall scores": 72,
     "Research Quality Score": 50.2,
     "Industry Score": 100,
-    "International Outlook": 47,
-    "Research Environment Score": 85.6,
-    "Teaching Score": 79.4
+    "international_outlook": 47,
+    "research_environment": 85.6,
+    "teaching_score": 79.4
   },
   {
     "rank": 30,
-    "ranking-institution-title": "The Hong Kong University of Science and Technology",
+    "ranking_institution_title": "The Hong Kong University of Science and Technology",
     "location": "Hong Kong",
     "Overall scores": 71.4,
     "Research Quality Score": 78.5,
     "Industry Score": 100,
-    "International Outlook": 89.8,
-    "Research Environment Score": 70.3,
-    "Teaching Score": 57.4
+    "international_outlook": 89.8,
+    "research_environment": 70.3,
+    "teaching_score": 57.4
   },
   {
     "rank": 31,
-    "ranking-institution-title": "University of Manchester",
+    "ranking_institution_title": "University of Manchester",
     "location": "United Kingdom",
     "Overall scores": 71.3,
     "Research Quality Score": 80.4,
     "Industry Score": 68.1,
-    "International Outlook": 95.6,
-    "Research Environment Score": 65.8,
-    "Teaching Score": 62.7
+    "international_outlook": 95.6,
+    "research_environment": 65.8,
+    "teaching_score": 62.7
   },
   {
     "rank": 32,
-    "ranking-institution-title": "Carnegie Mellon University",
+    "ranking_institution_title": "Carnegie Mellon University",
     "location": "United States",
     "Overall scores": 71,
     "Research Quality Score": 84.8,
     "Industry Score": 68.8,
-    "International Outlook": 88,
-    "Research Environment Score": 68.5,
-    "Teaching Score": 57.4
+    "international_outlook": 88,
+    "research_environment": 68.5,
+    "teaching_score": 57.4
   },
   {
     "rank": 33,
-    "ranking-institution-title": "University of California, San Diego",
+    "ranking_institution_title": "University of California, San Diego",
     "location": "United States",
     "Overall scores": 70.6,
     "Research Quality Score": 85.1,
     "Industry Score": 100,
-    "International Outlook": 75.6,
-    "Research Environment Score": 64.9,
-    "Teaching Score": 59.4
+    "international_outlook": 75.6,
+    "research_environment": 64.9,
+    "teaching_score": 59.4
   },
   {
     "rank": 34,
-    "ranking-institution-title": "University of Minnesota",
+    "ranking_institution_title": "University of Minnesota",
     "location": "United States",
     "Overall scores": 70.2,
     "Research Quality Score": 77.3,
     "Industry Score": 82,
-    "International Outlook": 56.5,
-    "Research Environment Score": 72.8,
-    "Teaching Score": 64.3
+    "international_outlook": 56.5,
+    "research_environment": 72.8,
+    "teaching_score": 64.3
   },
   {
     "rank": 35,
-    "ranking-institution-title": "University of British Columbia",
+    "ranking_institution_title": "University of British Columbia",
     "location": "Canada",
     "Overall scores": 69.9,
     "Research Quality Score": 77,
     "Industry Score": 71.4,
-    "International Outlook": 95.6,
-    "Research Environment Score": 69.1,
-    "Teaching Score": 56.9
+    "international_outlook": 95.6,
+    "research_environment": 69.1,
+    "teaching_score": 56.9
   },
   {
     "rank": 36,
-    "ranking-institution-title": "LMU Munich",
+    "ranking_institution_title": "LMU Munich",
     "location": "Germany",
     "Overall scores": 69,
     "Research Quality Score": 66.4,
     "Industry Score": 97.1,
-    "International Outlook": 72.8,
-    "Research Environment Score": 72.7,
-    "Teaching Score": 62.7
+    "international_outlook": 72.8,
+    "research_environment": 72.7,
+    "teaching_score": 62.7
   },
   {
     "rank": 37,
-    "ranking-institution-title": "University of Mannheim",
+    "ranking_institution_title": "University of Mannheim",
     "location": "Germany",
     "Overall scores": 68.6,
     "Research Quality Score": 71.4,
     "Industry Score": 93,
-    "International Outlook": 63.4,
-    "Research Environment Score": 71.6,
-    "Teaching Score": 61.6
+    "international_outlook": 63.4,
+    "research_environment": 71.6,
+    "teaching_score": 61.6
   },
   {
     "rank": 38,
-    "ranking-institution-title": "Nanyang Technological University, Singapore",
+    "ranking_institution_title": "Nanyang Technological University, Singapore",
     "location": "Singapore",
     "Overall scores": 68.4,
     "Research Quality Score": 77.4,
     "Industry Score": 100,
-    "International Outlook": 86.8,
-    "Research Environment Score": 63.3,
-    "Teaching Score": 56.6
+    "international_outlook": 86.8,
+    "research_environment": 63.3,
+    "teaching_score": 56.6
   },
   {
     "rank": 39,
-    "ranking-institution-title": "University of Hong Kong",
+    "ranking_institution_title": "University of Hong Kong",
     "location": "Hong Kong",
     "Overall scores": 68.3,
     "Research Quality Score": 80.1,
     "Industry Score": 72.5,
-    "International Outlook": 97.6,
-    "Research Environment Score": 65.1,
-    "Teaching Score": 52.6
+    "international_outlook": 97.6,
+    "research_environment": 65.1,
+    "teaching_score": 52.6
   },
   {
     "rank": 40,
-    "ranking-institution-title": "Tilburg University",
+    "ranking_institution_title": "Tilburg University",
     "location": "Netherlands",
     "Overall scores": 68.1,
     "Research Quality Score": 72.3,
     "Industry Score": 99.7,
-    "International Outlook": 81.4,
-    "Research Environment Score": 67.7,
-    "Teaching Score": 57.1
+    "international_outlook": 81.4,
+    "research_environment": 67.7,
+    "teaching_score": 57.1
   },
   {
     "rank": 41,
-    "ranking-institution-title": "University of Melbourne",
+    "ranking_institution_title": "University of Melbourne",
     "location": "Australia",
     "Overall scores": 67.8,
     "Research Quality Score": 74.7,
     "Industry Score": 79.2,
-    "International Outlook": 93.9,
-    "Research Environment Score": 65.5,
-    "Teaching Score": 55.1
+    "international_outlook": 93.9,
+    "research_environment": 65.5,
+    "teaching_score": 55.1
   },
   {
     "rank": 42,
-    "ranking-institution-title": "Fudan University",
+    "ranking_institution_title": "Fudan University",
     "location": "China",
     "Overall scores": 67.1,
     "Research Quality Score": 74.1,
     "Industry Score": 88,
-    "International Outlook": 77.1,
-    "Research Environment Score": 55.1,
-    "Teaching Score": 67.9
+    "international_outlook": 77.1,
+    "research_environment": 55.1,
+    "teaching_score": 67.9
   },
   {
     "rank": 42,
-    "ranking-institution-title": "Zhejiang University",
+    "ranking_institution_title": "Zhejiang University",
     "location": "China",
     "Overall scores": 67.1,
     "Research Quality Score": 82.4,
     "Industry Score": 94.8,
-    "International Outlook": 87,
-    "Research Environment Score": 53,
-    "Teaching Score": 59.5
+    "international_outlook": 87,
+    "research_environment": 53,
+    "teaching_score": 59.5
   },
   {
     "rank": 42,
-    "ranking-institution-title": "University of Zurich",
+    "ranking_institution_title": "University of Zurich",
     "location": "Switzerland",
     "Overall scores": 67.1,
     "Research Quality Score": 80,
     "Industry Score": 91,
-    "International Outlook": 90.2,
-    "Research Environment Score": 62.2,
-    "Teaching Score": 51.5
+    "international_outlook": 90.2,
+    "research_environment": 62.2,
+    "teaching_score": 51.5
   },
   {
     "rank": 45,
-    "ranking-institution-title": "Hong Kong Polytechnic University",
+    "ranking_institution_title": "Hong Kong Polytechnic University",
     "location": "Hong Kong",
     "Overall scores": 67,
     "Research Quality Score": 92.9,
     "Industry Score": 70.9,
-    "International Outlook": 95.5,
-    "Research Environment Score": 55.7,
-    "Teaching Score": 48.5
+    "international_outlook": 95.5,
+    "research_environment": 55.7,
+    "teaching_score": 48.5
   },
   {
     "rank": 46,
-    "ranking-institution-title": "Monash University",
+    "ranking_institution_title": "Monash University",
     "location": "Australia",
     "Overall scores": 66.4,
     "Research Quality Score": 78.4,
     "Industry Score": 73.9,
-    "International Outlook": 92.6,
-    "Research Environment Score": 55.3,
-    "Teaching Score": 59.2
+    "international_outlook": 92.6,
+    "research_environment": 55.3,
+    "teaching_score": 59.2
   },
   {
     "rank": 47,
-    "ranking-institution-title": "Yonsei University (Seoul campus)",
+    "ranking_institution_title": "Yonsei University (Seoul campus)",
     "location": "South Korea",
     "Overall scores": 64.6,
     "Research Quality Score": 77.4,
     "Industry Score": 75.8,
-    "International Outlook": 66.3,
-    "Research Environment Score": 57.1,
-    "Teaching Score": 59.9
+    "international_outlook": 66.3,
+    "research_environment": 57.1,
+    "teaching_score": 59.9
   },
   {
     "rank": 48,
-    "ranking-institution-title": "City University of Hong Kong",
+    "ranking_institution_title": "City University of Hong Kong",
     "location": "Hong Kong",
     "Overall scores": 64.5,
     "Research Quality Score": 76.2,
     "Industry Score": 100,
-    "International Outlook": 99,
-    "Research Environment Score": 54.1,
-    "Teaching Score": 51
+    "international_outlook": 99,
+    "research_environment": 54.1,
+    "teaching_score": 51
   },
   {
     "rank": 48,
-    "ranking-institution-title": "Dartmouth College",
+    "ranking_institution_title": "Dartmouth College",
     "location": "United States",
     "Overall scores": 64.5,
     "Research Quality Score": 93.7,
     "Industry Score": 67.5,
-    "International Outlook": 60.6,
-    "Research Environment Score": 41,
-    "Teaching Score": 65.7
+    "international_outlook": 60.6,
+    "research_environment": 41,
+    "teaching_score": 65.7
   },
   {
     "rank": 50,
-    "ranking-institution-title": "Michigan State University",
+    "ranking_institution_title": "Michigan State University",
     "location": "United States",
     "Overall scores": 64.2,
     "Research Quality Score": 79.8,
     "Industry Score": 67.3,
-    "International Outlook": 71.6,
-    "Research Environment Score": 60.9,
-    "Teaching Score": 52.4
+    "international_outlook": 71.6,
+    "research_environment": 60.9,
+    "teaching_score": 52.4
   },
   {
     "rank": 51,
-    "ranking-institution-title": "University of Southern California",
+    "ranking_institution_title": "University of Southern California",
     "location": "United States",
     "Overall scores": 63.9,
     "Research Quality Score": 86.7,
     "Industry Score": 69.2,
-    "International Outlook": 76.6,
-    "Research Environment Score": 53.8,
-    "Teaching Score": 51.3
+    "international_outlook": 76.6,
+    "research_environment": 53.8,
+    "teaching_score": 51.3
   },
   {
     "rank": 52,
-    "ranking-institution-title": "University of Groningen",
+    "ranking_institution_title": "University of Groningen",
     "location": "Netherlands",
     "Overall scores": 63.5,
     "Research Quality Score": 79.9,
     "Industry Score": 92.1,
-    "International Outlook": 84.8,
-    "Research Environment Score": 58.8,
-    "Teaching Score": 45
+    "international_outlook": 84.8,
+    "research_environment": 58.8,
+    "teaching_score": 45
   },
   {
     "rank": 53,
-    "ranking-institution-title": "University of Bonn",
+    "ranking_institution_title": "University of Bonn",
     "location": "Germany",
     "Overall scores": 63.2,
     "Research Quality Score": 63.3,
     "Industry Score": 84.9,
-    "International Outlook": 81.2,
-    "Research Environment Score": 64.8,
-    "Teaching Score": 53.3
+    "international_outlook": 81.2,
+    "research_environment": 64.8,
+    "teaching_score": 53.3
   },
   {
     "rank": 54,
-    "ranking-institution-title": "University of Washington",
+    "ranking_institution_title": "University of Washington",
     "location": "United States",
     "Overall scores": 63,
     "Research Quality Score": 78.7,
     "Industry Score": 67.5,
-    "International Outlook": 78.6,
-    "Research Environment Score": 57.3,
-    "Teaching Score": 50.7
+    "international_outlook": 78.6,
+    "research_environment": 57.3,
+    "teaching_score": 50.7
   },
   {
     "rank": 55,
-    "ranking-institution-title": "Australian National University",
+    "ranking_institution_title": "Australian National University",
     "location": "Australia",
     "Overall scores": 62.9,
     "Research Quality Score": 70.7,
     "Industry Score": 67.3,
-    "International Outlook": 92.4,
-    "Research Environment Score": 56.7,
-    "Teaching Score": 53.5
+    "international_outlook": 92.4,
+    "research_environment": 56.7,
+    "teaching_score": 53.5
   },
   {
     "rank": 56,
-    "ranking-institution-title": "University of Edinburgh",
+    "ranking_institution_title": "University of Edinburgh",
     "location": "United Kingdom",
     "Overall scores": 62.8,
     "Research Quality Score": 75,
     "Industry Score": 67.9,
-    "International Outlook": 94.7,
-    "Research Environment Score": 48.6,
-    "Teaching Score": 57.3
+    "international_outlook": 94.7,
+    "research_environment": 48.6,
+    "teaching_score": 57.3
   },
   {
     "rank": 57,
-    "ranking-institution-title": "Chinese University of Hong Kong",
+    "ranking_institution_title": "Chinese University of Hong Kong",
     "location": "Hong Kong",
     "Overall scores": 62.6,
     "Research Quality Score": 72.1,
     "Industry Score": 69.7,
-    "International Outlook": 91.8,
-    "Research Environment Score": 60.7,
-    "Teaching Score": 47.2
+    "international_outlook": 91.8,
+    "research_environment": 60.7,
+    "teaching_score": 47.2
   },
   {
     "rank": 57,
-    "ranking-institution-title": "KU Leuven",
+    "ranking_institution_title": "KU Leuven",
     "location": "Belgium",
     "Overall scores": 62.6,
     "Research Quality Score": 78.8,
     "Industry Score": 100,
-    "International Outlook": 73.2,
-    "Research Environment Score": 58.1,
-    "Teaching Score": 45.7
+    "international_outlook": 73.2,
+    "research_environment": 58.1,
+    "teaching_score": 45.7
   },
   {
     "rank": 59,
-    "ranking-institution-title": "University of St Gallen",
+    "ranking_institution_title": "University of St Gallen",
     "location": "Switzerland",
     "Overall scores": 62.1,
     "Research Quality Score": 83,
     "Industry Score": 84.9,
-    "International Outlook": 92.2,
-    "Research Environment Score": 39.9,
-    "Teaching Score": 56
+    "international_outlook": 92.2,
+    "research_environment": 39.9,
+    "teaching_score": 56
   },
   {
     "rank": 59,
-    "ranking-institution-title": "University of Texas at Austin",
+    "ranking_institution_title": "University of Texas at Austin",
     "location": "United States",
     "Overall scores": 62.1,
     "Research Quality Score": 72.6,
     "Industry Score": 78.6,
-    "International Outlook": 47,
-    "Research Environment Score": 63.3,
-    "Teaching Score": 54.6
+    "international_outlook": 47,
+    "research_environment": 63.3,
+    "teaching_score": 54.6
   },
   {
     "rank": 61,
-    "ranking-institution-title": "University of Illinois at Urbana-Champaign",
+    "ranking_institution_title": "University of Illinois at Urbana-Champaign",
     "location": "United States",
     "Overall scores": 61.5,
     "Research Quality Score": 74.5,
     "Industry Score": 79.2,
-    "International Outlook": 67.8,
-    "Research Environment Score": 57,
-    "Teaching Score": 51.4
+    "international_outlook": 67.8,
+    "research_environment": 57,
+    "teaching_score": 51.4
   },
   {
     "rank": 62,
-    "ranking-institution-title": "Lomonosov Moscow State University",
+    "ranking_institution_title": "Lomonosov Moscow State University",
     "location": "",
     "Overall scores": 61.4,
     "Research Quality Score": 43.3,
     "Industry Score": 76.6,
-    "International Outlook": 67.7,
-    "Research Environment Score": 57.5,
-    "Teaching Score": 76.5
+    "international_outlook": 67.7,
+    "research_environment": 57.5,
+    "teaching_score": 76.5
   },
   {
     "rank": 63,
-    "ranking-institution-title": "University of California, Davis",
+    "ranking_institution_title": "University of California, Davis",
     "location": "United States",
     "Overall scores": 61.2,
     "Research Quality Score": 84.3,
     "Industry Score": 76.2,
-    "International Outlook": 84.6,
-    "Research Environment Score": 52,
-    "Teaching Score": 42.9
+    "international_outlook": 84.6,
+    "research_environment": 52,
+    "teaching_score": 42.9
   },
   {
     "rank": 64,
-    "ranking-institution-title": "Kingâ€™s College London",
+    "ranking_institution_title": "Kingâ€™s College London",
     "location": "United Kingdom",
     "Overall scores": 61.1,
     "Research Quality Score": 76,
     "Industry Score": 31.1,
-    "International Outlook": 93.9,
-    "Research Environment Score": 53.7,
-    "Teaching Score": 50.7
+    "international_outlook": 93.9,
+    "research_environment": 53.7,
+    "teaching_score": 50.7
   },
   {
     "rank": 65,
-    "ranking-institution-title": "Boston University",
+    "ranking_institution_title": "Boston University",
     "location": "United States",
     "Overall scores": 60.9,
     "Research Quality Score": 91.3,
     "Industry Score": 63.5,
-    "International Outlook": 81.4,
-    "Research Environment Score": 44.1,
-    "Teaching Score": 47
+    "international_outlook": 81.4,
+    "research_environment": 44.1,
+    "teaching_score": 47
   },
   {
     "rank": 66,
-    "ranking-institution-title": "Indiana University",
+    "ranking_institution_title": "Indiana University",
     "location": "United States",
     "Overall scores": 60.8,
     "Research Quality Score": 81,
     "Industry Score": 79.8,
-    "International Outlook": 67.7,
-    "Research Environment Score": 53,
-    "Teaching Score": 47.8
+    "international_outlook": 67.7,
+    "research_environment": 53,
+    "teaching_score": 47.8
   },
   {
     "rank": 67,
-    "ranking-institution-title": "University of Wisconsin-Madison",
+    "ranking_institution_title": "University of Wisconsin-Madison",
     "location": "United States",
     "Overall scores": 60.5,
     "Research Quality Score": 62.3,
     "Industry Score": 70.7,
-    "International Outlook": 62.9,
-    "Research Environment Score": 67,
-    "Teaching Score": 50.1
+    "international_outlook": 62.9,
+    "research_environment": 67,
+    "teaching_score": 50.1
   },
   {
     "rank": 68,
-    "ranking-institution-title": "Purdue University West Lafayette",
+    "ranking_institution_title": "Purdue University West Lafayette",
     "location": "United States",
     "Overall scores": 60.2,
     "Research Quality Score": 71.2,
     "Industry Score": 69.6,
-    "International Outlook": 75.8,
-    "Research Environment Score": 58.1,
-    "Teaching Score": 47.7
+    "international_outlook": 75.8,
+    "research_environment": 58.1,
+    "teaching_score": 47.7
   },
   {
     "rank": 68,
-    "ranking-institution-title": "University of Virginia (Main campus)",
+    "ranking_institution_title": "University of Virginia (Main campus)",
     "location": "United States",
     "Overall scores": 60.2,
     "Research Quality Score": 83.4,
     "Industry Score": 67.3,
-    "International Outlook": 63.6,
-    "Research Environment Score": 38.9,
-    "Teaching Score": 61.2
+    "international_outlook": 63.6,
+    "research_environment": 38.9,
+    "teaching_score": 61.2
   },
   {
     "rank": 70,
-    "ranking-institution-title": "University of Amsterdam",
+    "ranking_institution_title": "University of Amsterdam",
     "location": "Netherlands",
     "Overall scores": 60,
     "Research Quality Score": 75,
     "Industry Score": 71.4,
-    "International Outlook": 90.9,
-    "Research Environment Score": 47.3,
-    "Teaching Score": 50.3
+    "international_outlook": 90.9,
+    "research_environment": 47.3,
+    "teaching_score": 50.3
   },
   {
     "rank": 70,
-    "ranking-institution-title": "The University of Sydney",
+    "ranking_institution_title": "The University of Sydney",
     "location": "Australia",
     "Overall scores": 60,
     "Research Quality Score": 73.9,
     "Industry Score": 78.8,
-    "International Outlook": 89.2,
-    "Research Environment Score": 52.1,
-    "Teaching Score": 45.5
+    "international_outlook": 89.2,
+    "research_environment": 52.1,
+    "teaching_score": 45.5
   },
   {
     "rank": 72,
-    "ranking-institution-title": "Johns Hopkins University",
+    "ranking_institution_title": "Johns Hopkins University",
     "location": "United States",
     "Overall scores": 59.8,
     "Research Quality Score": 68,
     "Industry Score": 68.1,
-    "International Outlook": 88.9,
-    "Research Environment Score": 53.1,
-    "Teaching Score": 50.4
+    "international_outlook": 88.9,
+    "research_environment": 53.1,
+    "teaching_score": 50.4
   },
   {
     "rank": 72,
-    "ranking-institution-title": "UniversitÃ© de MontrÃ©al",
+    "ranking_institution_title": "UniversitÃ© de MontrÃ©al",
     "location": "Canada",
     "Overall scores": 59.8,
     "Research Quality Score": 69.9,
     "Industry Score": 93.4,
-    "International Outlook": 85.7,
-    "Research Environment Score": 51.9,
-    "Teaching Score": 47.8
+    "international_outlook": 85.7,
+    "research_environment": 51.9,
+    "teaching_score": 47.8
   },
   {
     "rank": 74,
-    "ranking-institution-title": "The University of Queensland",
+    "ranking_institution_title": "The University of Queensland",
     "location": "Australia",
     "Overall scores": 59.7,
     "Research Quality Score": 83.8,
     "Industry Score": 77,
-    "International Outlook": 94.1,
-    "Research Environment Score": 53.1,
-    "Teaching Score": 34.3
+    "international_outlook": 94.1,
+    "research_environment": 53.1,
+    "teaching_score": 34.3
   },
   {
     "rank": 75,
-    "ranking-institution-title": "University of Nottingham",
+    "ranking_institution_title": "University of Nottingham",
     "location": "United Kingdom",
     "Overall scores": 59.6,
     "Research Quality Score": 80.5,
     "Industry Score": 64.4,
-    "International Outlook": 96.3,
-    "Research Environment Score": 45.5,
-    "Teaching Score": 45.6
+    "international_outlook": 96.3,
+    "research_environment": 45.5,
+    "teaching_score": 45.6
   },
   {
     "rank": 76,
-    "ranking-institution-title": "University of North Carolina at Chapel Hill",
+    "ranking_institution_title": "University of North Carolina at Chapel Hill",
     "location": "United States",
     "Overall scores": 59.4,
     "Research Quality Score": 82.4,
     "Industry Score": 67.9,
-    "International Outlook": 55.2,
-    "Research Environment Score": 53,
-    "Teaching Score": 47.1
+    "international_outlook": 55.2,
+    "research_environment": 53,
+    "teaching_score": 47.1
   },
   {
     "rank": 76,
-    "ranking-institution-title": "University of Toulouse",
+    "ranking_institution_title": "University of Toulouse",
     "location": "France",
     "Overall scores": 59.4,
     "Research Quality Score": 63.2,
     "Industry Score": 72.9,
-    "International Outlook": 84.8,
-    "Research Environment Score": 61.4,
-    "Teaching Score": 45.1
+    "international_outlook": 84.8,
+    "research_environment": 61.4,
+    "teaching_score": 45.1
   },
   {
     "rank": 78,
-    "ranking-institution-title": "Kyoto University",
+    "ranking_institution_title": "Kyoto University",
     "location": "Japan",
     "Overall scores": 59.2,
     "Research Quality Score": 48.6,
     "Industry Score": 99.7,
-    "International Outlook": 59.3,
-    "Research Environment Score": 61.3,
-    "Teaching Score": 60.4
+    "international_outlook": 59.3,
+    "research_environment": 61.3,
+    "teaching_score": 60.4
   },
   {
     "rank": 79,
-    "ranking-institution-title": "University of Reading",
+    "ranking_institution_title": "University of Reading",
     "location": "United Kingdom",
     "Overall scores": 59.1,
     "Research Quality Score": 85.2,
     "Industry Score": 75.8,
-    "International Outlook": 94.6,
-    "Research Environment Score": 42,
-    "Teaching Score": 42.6
+    "international_outlook": 94.6,
+    "research_environment": 42,
+    "teaching_score": 42.6
   },
   {
     "rank": 80,
-    "ranking-institution-title": "University of Massachusetts",
+    "ranking_institution_title": "University of Massachusetts",
     "location": "United States",
     "Overall scores": 59,
     "Research Quality Score": 72.7,
     "Industry Score": 66.6,
-    "International Outlook": 73.2,
-    "Research Environment Score": 46.7,
-    "Teaching Score": 55.2
+    "international_outlook": 73.2,
+    "research_environment": 46.7,
+    "teaching_score": 55.2
   },
   {
     "rank": 80,
-    "ranking-institution-title": "University of Navarra",
+    "ranking_institution_title": "University of Navarra",
     "location": "Spain",
     "Overall scores": 59,
     "Research Quality Score": 73.8,
     "Industry Score": 26.1,
-    "International Outlook": 94.5,
-    "Research Environment Score": 38,
-    "Teaching Score": 62.5
+    "international_outlook": 94.5,
+    "research_environment": 38,
+    "teaching_score": 62.5
   },
   {
     "rank": 82,
-    "ranking-institution-title": "Lund University",
+    "ranking_institution_title": "Lund University",
     "location": "Sweden",
     "Overall scores": 58.8,
     "Research Quality Score": 86.1,
     "Industry Score": 92.4,
-    "International Outlook": 66.2,
-    "Research Environment Score": 51,
-    "Teaching Score": 37.8
+    "international_outlook": 66.2,
+    "research_environment": 51,
+    "teaching_score": 37.8
   },
   {
     "rank": 83,
-    "ranking-institution-title": "Maastricht University",
+    "ranking_institution_title": "Maastricht University",
     "location": "Netherlands",
     "Overall scores": 58.7,
     "Research Quality Score": 69.2,
     "Industry Score": 93.8,
-    "International Outlook": 96.3,
-    "Research Environment Score": 45,
-    "Teaching Score": 48.5
+    "international_outlook": 96.3,
+    "research_environment": 45,
+    "teaching_score": 48.5
   },
   {
     "rank": 84,
-    "ranking-institution-title": "Aalto University",
+    "ranking_institution_title": "Aalto University",
     "location": "Finland",
     "Overall scores": 58.6,
     "Research Quality Score": 79.5,
     "Industry Score": 82.6,
-    "International Outlook": 66.9,
-    "Research Environment Score": 52.5,
-    "Teaching Score": 41.9
+    "international_outlook": 66.9,
+    "research_environment": 52.5,
+    "teaching_score": 41.9
   },
   {
     "rank": 85,
-    "ranking-institution-title": "University of Maryland, College Park",
+    "ranking_institution_title": "University of Maryland, College Park",
     "location": "United States",
     "Overall scores": 58.5,
     "Research Quality Score": 81.2,
     "Industry Score": 67.5,
-    "International Outlook": 52.2,
-    "Research Environment Score": 53.2,
-    "Teaching Score": 46.1
+    "international_outlook": 52.2,
+    "research_environment": 53.2,
+    "teaching_score": 46.1
   },
   {
     "rank": 86,
-    "ranking-institution-title": "Western University",
+    "ranking_institution_title": "Western University",
     "location": "Canada",
     "Overall scores": 58.2,
     "Research Quality Score": 75.5,
     "Industry Score": 90.7,
-    "International Outlook": 90.9,
-    "Research Environment Score": 37,
-    "Teaching Score": 52.1
+    "international_outlook": 90.9,
+    "research_environment": 37,
+    "teaching_score": 52.1
   },
   {
     "rank": 87,
-    "ranking-institution-title": "HSE University",
+    "ranking_institution_title": "HSE University",
     "location": "",
     "Overall scores": 58.1,
     "Research Quality Score": 54.7,
     "Industry Score": 69.7,
-    "International Outlook": 49.2,
-    "Research Environment Score": 59,
-    "Teaching Score": 61.2
+    "international_outlook": 49.2,
+    "research_environment": 59,
+    "teaching_score": 61.2
   },
   {
     "rank": 88,
-    "ranking-institution-title": "Seoul National University",
+    "ranking_institution_title": "Seoul National University",
     "location": "South Korea",
     "Overall scores": 57.7,
     "Research Quality Score": 55.7,
     "Industry Score": 100,
-    "International Outlook": 47.2,
-    "Research Environment Score": 59,
-    "Teaching Score": 55.4
+    "international_outlook": 47.2,
+    "research_environment": 59,
+    "teaching_score": 55.4
   },
   {
     "rank": 89,
-    "ranking-institution-title": "McGill University",
+    "ranking_institution_title": "McGill University",
     "location": "Canada",
     "Overall scores": 57.4,
     "Research Quality Score": 67.9,
     "Industry Score": 75.7,
-    "International Outlook": 94.8,
-    "Research Environment Score": 47.7,
-    "Teaching Score": 45.5
+    "international_outlook": 94.8,
+    "research_environment": 47.7,
+    "teaching_score": 45.5
   },
   {
     "rank": 90,
-    "ranking-institution-title": "University of Surrey",
+    "ranking_institution_title": "University of Surrey",
     "location": "United Kingdom",
     "Overall scores": 57,
     "Research Quality Score": 95.4,
     "Industry Score": 46.5,
-    "International Outlook": 98.1,
-    "Research Environment Score": 37,
-    "Teaching Score": 35.4
+    "international_outlook": 98.1,
+    "research_environment": 37,
+    "teaching_score": 35.4
   },
   {
     "rank": 91,
-    "ranking-institution-title": "Penn State (Main campus)",
+    "ranking_institution_title": "Penn State (Main campus)",
     "location": "United States",
     "Overall scores": 56.9,
     "Research Quality Score": 72.1,
     "Industry Score": 67.6,
-    "International Outlook": 62.9,
-    "Research Environment Score": 53,
-    "Teaching Score": 45.1
+    "international_outlook": 62.9,
+    "research_environment": 53,
+    "teaching_score": 45.1
   },
   {
     "rank": 91,
-    "ranking-institution-title": "Trinity College Dublin",
+    "ranking_institution_title": "Trinity College Dublin",
     "location": "Ireland",
     "Overall scores": 56.9,
     "Research Quality Score": 90,
     "Industry Score": 67.2,
-    "International Outlook": 88.3,
-    "Research Environment Score": 37.8,
-    "Teaching Score": 38.8
+    "international_outlook": 88.3,
+    "research_environment": 37.8,
+    "teaching_score": 38.8
   },
   {
     "rank": 93,
-    "ranking-institution-title": "Pompeu Fabra University",
+    "ranking_institution_title": "Pompeu Fabra University",
     "location": "Spain",
     "Overall scores": 56.8,
     "Research Quality Score": 64.6,
     "Industry Score": 63.5,
-    "International Outlook": 75,
-    "Research Environment Score": 52.9,
-    "Teaching Score": 48.1
+    "international_outlook": 75,
+    "research_environment": 52.9,
+    "teaching_score": 48.1
   },
   {
     "rank": 94,
-    "ranking-institution-title": "University of Florida",
+    "ranking_institution_title": "University of Florida",
     "location": "United States",
     "Overall scores": 56.6,
     "Research Quality Score": 79.6,
     "Industry Score": 68.8,
-    "International Outlook": 51.5,
-    "Research Environment Score": 56.2,
-    "Teaching Score": 38.1
+    "international_outlook": 51.5,
+    "research_environment": 56.2,
+    "teaching_score": 38.1
   },
   {
     "rank": 95,
-    "ranking-institution-title": "Texas A&M University",
+    "ranking_institution_title": "Texas A&M University",
     "location": "United States",
     "Overall scores": 56.4,
     "Research Quality Score": 78.6,
     "Industry Score": 69,
-    "International Outlook": 57.9,
-    "Research Environment Score": 57.9,
-    "Teaching Score": 34.3
+    "international_outlook": 57.9,
+    "research_environment": 57.9,
+    "teaching_score": 34.3
   },
   {
     "rank": 96,
-    "ranking-institution-title": "City, University of London",
+    "ranking_institution_title": "City, University of London",
     "location": "United Kingdom",
     "Overall scores": 56,
     "Research Quality Score": 73.3,
     "Industry Score": 64.4,
-    "International Outlook": 97.5,
-    "Research Environment Score": 42.3,
-    "Teaching Score": 42.5
+    "international_outlook": 97.5,
+    "research_environment": 42.3,
+    "teaching_score": 42.5
   },
   {
     "rank": 97,
-    "ranking-institution-title": "Nanjing University",
+    "ranking_institution_title": "Nanjing University",
     "location": "China",
     "Overall scores": 55.9,
     "Research Quality Score": 79.4,
     "Industry Score": 90,
-    "International Outlook": 71.5,
-    "Research Environment Score": 34.9,
-    "Teaching Score": 49.4
+    "international_outlook": 71.5,
+    "research_environment": 34.9,
+    "teaching_score": 49.4
   },
   {
     "rank": 97,
-    "ranking-institution-title": "UNSW Sydney",
+    "ranking_institution_title": "UNSW Sydney",
     "location": "Australia",
     "Overall scores": 55.9,
     "Research Quality Score": 73.5,
     "Industry Score": 93.7,
-    "International Outlook": 93.1,
-    "Research Environment Score": 46.6,
-    "Teaching Score": 35.1
+    "international_outlook": 93.1,
+    "research_environment": 46.6,
+    "teaching_score": 35.1
   },
   {
     "rank": 98,
-    "ranking-institution-title": "Lancaster University",
+    "ranking_institution_title": "Lancaster University",
     "location": "United Kingdom",
     "Overall scores": 55.8,
     "Research Quality Score": 78.5,
     "Industry Score": 67.1,
-    "International Outlook": 96.8,
-    "Research Environment Score": 43.4,
-    "Teaching Score": 36.2
+    "international_outlook": 96.8,
+    "research_environment": 43.4,
+    "teaching_score": 36.2
   },
   {
     "rank": 99,
-    "ranking-institution-title": "Ohio State University (Main campus)",
+    "ranking_institution_title": "Ohio State University (Main campus)",
     "location": "United States",
     "Overall scores": 55.8,
     "Research Quality Score": 77.4,
     "Industry Score": 69.9,
-    "International Outlook": 71.3,
-    "Research Environment Score": 53.6,
-    "Teaching Score": 34
+    "international_outlook": 71.3,
+    "research_environment": 53.6,
+    "teaching_score": 34
   },
   {
     "rank": 100,
-    "ranking-institution-title": "Aarhus University",
+    "ranking_institution_title": "Aarhus University",
     "location": "Denmark",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 68,
     "Industry Score": 93.6,
-    "International Outlook": 69.7,
-    "Research Environment Score": 43.8,
-    "Teaching Score": 37.8
+    "international_outlook": 69.7,
+    "research_environment": 43.8,
+    "teaching_score": 37.8
   },
   {
     "rank": 101,
-    "ranking-institution-title": "Abu Dhabi University",
+    "ranking_institution_title": "Abu Dhabi University",
     "location": "United Arab Emirates",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 92.8,
     "Industry Score": 36.3,
-    "International Outlook": 95.2,
-    "Research Environment Score": 25.8,
-    "Teaching Score": 40.8
+    "international_outlook": 95.2,
+    "research_environment": 25.8,
+    "teaching_score": 40.8
   },
   {
     "rank": 102,
-    "ranking-institution-title": "University of Alberta",
+    "ranking_institution_title": "University of Alberta",
     "location": "Canada",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 74.8,
     "Industry Score": 99.8,
-    "International Outlook": 95.5,
-    "Research Environment Score": 43,
-    "Teaching Score": 32.9
+    "international_outlook": 95.5,
+    "research_environment": 43,
+    "teaching_score": 32.9
   },
   {
     "rank": 103,
-    "ranking-institution-title": "Arizona State University (Tempe)",
+    "ranking_institution_title": "Arizona State University (Tempe)",
     "location": "United States",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 85.2,
     "Industry Score": 67.7,
-    "International Outlook": 72.3,
-    "Research Environment Score": 46.8,
-    "Teaching Score": 34
+    "international_outlook": 72.3,
+    "research_environment": 46.8,
+    "teaching_score": 34
   },
   {
     "rank": 104,
-    "ranking-institution-title": "University of Birmingham",
+    "ranking_institution_title": "University of Birmingham",
     "location": "United Kingdom",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 86.6,
     "Industry Score": 73.9,
-    "International Outlook": 93.9,
-    "Research Environment Score": 38.1,
-    "Teaching Score": 31.1
+    "international_outlook": 93.9,
+    "research_environment": 38.1,
+    "teaching_score": 31.1
   },
   {
     "rank": 105,
-    "ranking-institution-title": "University of Bologna",
+    "ranking_institution_title": "University of Bologna",
     "location": "Italy",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 64.3,
     "Industry Score": 68.1,
-    "International Outlook": 60.9,
-    "Research Environment Score": 45.7,
-    "Teaching Score": 49.7
+    "international_outlook": 60.9,
+    "research_environment": 45.7,
+    "teaching_score": 49.7
   },
   {
     "rank": 106,
-    "ranking-institution-title": "Boston College",
+    "ranking_institution_title": "Boston College",
     "location": "United States",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 87.8,
     "Industry Score": 64.9,
-    "International Outlook": 66.8,
-    "Research Environment Score": 32.1,
-    "Teaching Score": 41
+    "international_outlook": 66.8,
+    "research_environment": 32.1,
+    "teaching_score": 41
   },
   {
     "rank": 107,
-    "ranking-institution-title": "Durham University",
+    "ranking_institution_title": "Durham University",
     "location": "United Kingdom",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 82.1,
     "Industry Score": 40.6,
-    "International Outlook": 98,
-    "Research Environment Score": 35.9,
-    "Teaching Score": 35.7
+    "international_outlook": 98,
+    "research_environment": 35.9,
+    "teaching_score": 35.7
   },
   {
     "rank": 108,
-    "ranking-institution-title": "George Washington University",
+    "ranking_institution_title": "George Washington University",
     "location": "United States",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 84.1,
     "Industry Score": 67.5,
-    "International Outlook": 75.4,
-    "Research Environment Score": 35.4,
-    "Teaching Score": 40.5
+    "international_outlook": 75.4,
+    "research_environment": 35.4,
+    "teaching_score": 40.5
   },
   {
     "rank": 109,
-    "ranking-institution-title": "University of Glasgow",
+    "ranking_institution_title": "University of Glasgow",
     "location": "United Kingdom",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 71.3,
     "Industry Score": 58.3,
-    "International Outlook": 93.8,
-    "Research Environment Score": 40,
-    "Teaching Score": 41.9
+    "international_outlook": 93.8,
+    "research_environment": 40,
+    "teaching_score": 41.9
   },
   {
     "rank": 110,
-    "ranking-institution-title": "University of Leeds",
+    "ranking_institution_title": "University of Leeds",
     "location": "United Kingdom",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 78.6,
     "Industry Score": 67.1,
-    "International Outlook": 95.5,
-    "Research Environment Score": 39.4,
-    "Teaching Score": 35.7
+    "international_outlook": 95.5,
+    "research_environment": 39.4,
+    "teaching_score": 35.7
   },
   {
     "rank": 111,
-    "ranking-institution-title": "National Taiwan University (NTU)",
+    "ranking_institution_title": "National Taiwan University (NTU)",
     "location": "Taiwan",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 73.2,
     "Industry Score": 100,
-    "International Outlook": 59.4,
-    "Research Environment Score": 47.7,
-    "Teaching Score": 41.1
+    "international_outlook": 59.4,
+    "research_environment": 47.7,
+    "teaching_score": 41.1
   },
   {
     "rank": 112,
-    "ranking-institution-title": "Politecnico di Milano",
+    "ranking_institution_title": "Politecnico di Milano",
     "location": "Italy",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 86.1,
     "Industry Score": 95,
-    "International Outlook": 50.3,
-    "Research Environment Score": 46.7,
-    "Teaching Score": 35.4
+    "international_outlook": 50.3,
+    "research_environment": 46.7,
+    "teaching_score": 35.4
   },
   {
     "rank": 113,
-    "ranking-institution-title": "Queensland University of Technology",
+    "ranking_institution_title": "Queensland University of Technology",
     "location": "Australia",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 82.6,
     "Industry Score": 78.3,
-    "International Outlook": 82.6,
-    "Research Environment Score": 40.1,
-    "Teaching Score": 27.5
+    "international_outlook": 82.6,
+    "research_environment": 40.1,
+    "teaching_score": 27.5
   },
   {
     "rank": 114,
-    "ranking-institution-title": "Universitat Ramon Llull",
+    "ranking_institution_title": "Universitat Ramon Llull",
     "location": "Spain",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 82.8,
     "Industry Score": 25.5,
-    "International Outlook": 86.7,
-    "Research Environment Score": 32,
-    "Teaching Score": 47.9
+    "international_outlook": 86.7,
+    "research_environment": 32,
+    "teaching_score": 47.9
   },
   {
     "rank": 115,
-    "ranking-institution-title": "University of SÃ£o Paulo",
+    "ranking_institution_title": "University of SÃ£o Paulo",
     "location": "Brazil",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 51,
     "Industry Score": 61.5,
-    "International Outlook": 30.7,
-    "Research Environment Score": 58,
-    "Teaching Score": 53.7
+    "international_outlook": 30.7,
+    "research_environment": 58,
+    "teaching_score": 53.7
   },
   {
     "rank": 116,
-    "ranking-institution-title": "University of Science and Technology of China",
+    "ranking_institution_title": "University of Science and Technology of China",
     "location": "China",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 85,
     "Industry Score": 89,
-    "International Outlook": 74.6,
-    "Research Environment Score": 34.8,
-    "Teaching Score": 33.1
+    "international_outlook": 74.6,
+    "research_environment": 34.8,
+    "teaching_score": 33.1
   },
   {
     "rank": 117,
-    "ranking-institution-title": "Sichuan University",
+    "ranking_institution_title": "Sichuan University",
     "location": "China",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 76.9,
     "Industry Score": 94.8,
-    "International Outlook": 63.1,
-    "Research Environment Score": 41.9,
-    "Teaching Score": 41
+    "international_outlook": 63.1,
+    "research_environment": 41.9,
+    "teaching_score": 41
   },
   {
     "rank": 118,
-    "ranking-institution-title": "University of Southampton",
+    "ranking_institution_title": "University of Southampton",
     "location": "United Kingdom",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 92,
     "Industry Score": 67.5,
-    "International Outlook": 98.1,
-    "Research Environment Score": 28.6,
-    "Teaching Score": 33.7
+    "international_outlook": 98.1,
+    "research_environment": 28.6,
+    "teaching_score": 33.7
   },
   {
     "rank": 119,
-    "ranking-institution-title": "Sungkyunkwan University (SKKU)",
+    "ranking_institution_title": "Sungkyunkwan University (SKKU)",
     "location": "South Korea",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 55,
     "Industry Score": 99,
-    "International Outlook": 76.1,
-    "Research Environment Score": 46.7,
-    "Teaching Score": 49.6
+    "international_outlook": 76.1,
+    "research_environment": 46.7,
+    "teaching_score": 49.6
   },
   {
     "rank": 120,
-    "ranking-institution-title": "University of Sussex",
+    "ranking_institution_title": "University of Sussex",
     "location": "United Kingdom",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 91.2,
     "Industry Score": 66.1,
-    "International Outlook": 96,
-    "Research Environment Score": 38.7,
-    "Teaching Score": 24.5
+    "international_outlook": 96,
+    "research_environment": 38.7,
+    "teaching_score": 24.5
   },
   {
     "rank": 121,
-    "ranking-institution-title": "Tongji University",
+    "ranking_institution_title": "Tongji University",
     "location": "China",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 81.7,
     "Industry Score": 71.9,
-    "International Outlook": 90.9,
-    "Research Environment Score": 36.6,
-    "Teaching Score": 35.5
+    "international_outlook": 90.9,
+    "research_environment": 36.6,
+    "teaching_score": 35.5
   },
   {
     "rank": 122,
-    "ranking-institution-title": "University of Twente",
+    "ranking_institution_title": "University of Twente",
     "location": "Netherlands",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 83.1,
     "Industry Score": 99.9,
-    "International Outlook": 90.1,
-    "Research Environment Score": 34.6,
-    "Teaching Score": 29.9
+    "international_outlook": 90.1,
+    "research_environment": 34.6,
+    "teaching_score": 29.9
   },
   {
     "rank": 123,
-    "ranking-institution-title": "University of Vienna",
+    "ranking_institution_title": "University of Vienna",
     "location": "Austria",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 62.7,
     "Industry Score": 61.2,
-    "International Outlook": 91.8,
-    "Research Environment Score": 48.3,
-    "Teaching Score": 41.6
+    "international_outlook": 91.8,
+    "research_environment": 48.3,
+    "teaching_score": 41.6
   },
   {
     "rank": 124,
-    "ranking-institution-title": "Vrije Universiteit Amsterdam",
+    "ranking_institution_title": "Vrije Universiteit Amsterdam",
     "location": "Netherlands",
     "Overall scores": "52.3â€“55.6",
     "Research Quality Score": 76.1,
     "Industry Score": 63.4,
-    "International Outlook": 82.4,
-    "Research Environment Score": 48.2,
-    "Teaching Score": 37.1
+    "international_outlook": 82.4,
+    "research_environment": 48.2,
+    "teaching_score": 37.1
   },
   {
     "rank": 125,
-    "ranking-institution-title": "University of Auckland",
+    "ranking_institution_title": "University of Auckland",
     "location": "New Zealand",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 75.7,
     "Industry Score": 68.9,
-    "International Outlook": 92.2,
-    "Research Environment Score": 33.1,
-    "Teaching Score": 32.7
+    "international_outlook": 92.2,
+    "research_environment": 33.1,
+    "teaching_score": 32.7
   },
   {
     "rank": 126,
-    "ranking-institution-title": "Autonomous University of Barcelona",
+    "ranking_institution_title": "Autonomous University of Barcelona",
     "location": "Spain",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 77.2,
     "Industry Score": 51.7,
-    "International Outlook": 74.9,
-    "Research Environment Score": 35,
-    "Teaching Score": 40.9
+    "international_outlook": 74.9,
+    "research_environment": 35,
+    "teaching_score": 40.9
   },
   {
     "rank": 127,
-    "ranking-institution-title": "University of Bath",
+    "ranking_institution_title": "University of Bath",
     "location": "United Kingdom",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 79.9,
     "Industry Score": 49.1,
-    "International Outlook": 95.3,
-    "Research Environment Score": 32.4,
-    "Teaching Score": 33.5
+    "international_outlook": 95.3,
+    "research_environment": 32.4,
+    "teaching_score": 33.5
   },
   {
     "rank": 128,
-    "ranking-institution-title": "Beihang University",
+    "ranking_institution_title": "Beihang University",
     "location": "China",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 80.2,
     "Industry Score": 88.4,
-    "International Outlook": 64.6,
-    "Research Environment Score": 27.8,
-    "Teaching Score": 37.3
+    "international_outlook": 64.6,
+    "research_environment": 27.8,
+    "teaching_score": 37.3
   },
   {
     "rank": 129,
-    "ranking-institution-title": "Beijing Institute of Technology",
+    "ranking_institution_title": "Beijing Institute of Technology",
     "location": "China",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 97.8,
     "Industry Score": 55.1,
-    "International Outlook": 61.9,
-    "Research Environment Score": 29.2,
-    "Teaching Score": 35.6
+    "international_outlook": 61.9,
+    "research_environment": 29.2,
+    "teaching_score": 35.6
   },
   {
     "rank": 130,
-    "ranking-institution-title": "University of Cologne",
+    "ranking_institution_title": "University of Cologne",
     "location": "Germany",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 63.3,
     "Industry Score": 94.9,
-    "International Outlook": 62.4,
-    "Research Environment Score": 43.9,
-    "Teaching Score": 37.3
+    "international_outlook": 62.4,
+    "research_environment": 43.9,
+    "teaching_score": 37.3
   },
   {
     "rank": 131,
-    "ranking-institution-title": "Free University of Berlin",
+    "ranking_institution_title": "Free University of Berlin",
     "location": "Germany",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 66.4,
     "Industry Score": 78,
-    "International Outlook": 63.5,
-    "Research Environment Score": 42.2,
-    "Teaching Score": 38.8
+    "international_outlook": 63.5,
+    "research_environment": 42.2,
+    "teaching_score": 38.8
   },
   {
     "rank": 132,
-    "ranking-institution-title": "University of Georgia",
+    "ranking_institution_title": "University of Georgia",
     "location": "United States",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 79.7,
     "Industry Score": 67.4,
-    "International Outlook": 40.4,
-    "Research Environment Score": 43.9,
-    "Teaching Score": 31.1
+    "international_outlook": 40.4,
+    "research_environment": 43.9,
+    "teaching_score": 31.1
   },
   {
     "rank": 133,
-    "ranking-institution-title": "Ghent University",
+    "ranking_institution_title": "Ghent University",
     "location": "Belgium",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 81.5,
     "Industry Score": 91.8,
-    "International Outlook": 53.4,
-    "Research Environment Score": 36.4,
-    "Teaching Score": 34.3
+    "international_outlook": 53.4,
+    "research_environment": 36.4,
+    "teaching_score": 34.3
   },
   {
     "rank": 134,
-    "ranking-institution-title": "Griffith University",
+    "ranking_institution_title": "Griffith University",
     "location": "Australia",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 80.2,
     "Industry Score": 74,
-    "International Outlook": 86.1,
-    "Research Environment Score": 34.8,
-    "Teaching Score": 33.9
+    "international_outlook": 86.1,
+    "research_environment": 34.8,
+    "teaching_score": 33.9
   },
   {
     "rank": 135,
-    "ranking-institution-title": "Institut Polytechnique de Paris",
+    "ranking_institution_title": "Institut Polytechnique de Paris",
     "location": "France",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 47.3,
     "Industry Score": 66.3,
-    "International Outlook": 83.8,
-    "Research Environment Score": 43.5,
-    "Teaching Score": 47
+    "international_outlook": 83.8,
+    "research_environment": 43.5,
+    "teaching_score": 47
   },
   {
     "rank": 136,
-    "ranking-institution-title": "Lappeenranta-Lahti University of Technology LUT",
+    "ranking_institution_title": "Lappeenranta-Lahti University of Technology LUT",
     "location": "Finland",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 97.9,
     "Industry Score": 49.9,
-    "International Outlook": 48,
-    "Research Environment Score": 34.6,
-    "Teaching Score": 25.9
+    "international_outlook": 48,
+    "research_environment": 34.6,
+    "teaching_score": 25.9
   },
   {
     "rank": 137,
-    "ranking-institution-title": "Loughborough University",
+    "ranking_institution_title": "Loughborough University",
     "location": "United Kingdom",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 77.5,
     "Industry Score": 67.8,
-    "International Outlook": 92.7,
-    "Research Environment Score": 30.3,
-    "Teaching Score": 34.3
+    "international_outlook": 92.7,
+    "research_environment": 30.3,
+    "teaching_score": 34.3
   },
   {
     "rank": 138,
-    "ranking-institution-title": "Macquarie University",
+    "ranking_institution_title": "Macquarie University",
     "location": "Australia",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 82.5,
     "Industry Score": 94.2,
-    "International Outlook": 88.1,
-    "Research Environment Score": 32.2,
-    "Teaching Score": 28.2
+    "international_outlook": 88.1,
+    "research_environment": 32.2,
+    "teaching_score": 28.2
   },
   {
     "rank": 139,
-    "ranking-institution-title": "University of Malaya",
+    "ranking_institution_title": "University of Malaya",
     "location": "Malaysia",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 65.1,
     "Industry Score": 76.8,
-    "International Outlook": 69.1,
-    "Research Environment Score": 38.8,
-    "Teaching Score": 39.2
+    "international_outlook": 69.1,
+    "research_environment": 38.8,
+    "teaching_score": 39.2
   },
   {
     "rank": 140,
-    "ranking-institution-title": "RMIT University",
+    "ranking_institution_title": "RMIT University",
     "location": "Australia",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 79.1,
     "Industry Score": 75.8,
-    "International Outlook": 88.9,
-    "Research Environment Score": 31.8,
-    "Teaching Score": 30.6
+    "international_outlook": 88.9,
+    "research_environment": 31.8,
+    "teaching_score": 30.6
   },
   {
     "rank": 141,
-    "ranking-institution-title": "Santâ€™Anna School of Advanced Studies â€“ Pisa",
+    "ranking_institution_title": "Santâ€™Anna School of Advanced Studies â€“ Pisa",
     "location": "Italy",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 92,
     "Industry Score": 79,
-    "International Outlook": 47.3,
-    "Research Environment Score": 31.4,
-    "Teaching Score": 33.3
+    "international_outlook": 47.3,
+    "research_environment": 31.4,
+    "teaching_score": 33.3
   },
   {
     "rank": 142,
-    "ranking-institution-title": "University of Sheffield",
+    "ranking_institution_title": "University of Sheffield",
     "location": "United Kingdom",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 85,
     "Industry Score": 54,
-    "International Outlook": 92.9,
-    "Research Environment Score": 30,
-    "Teaching Score": 30.8
+    "international_outlook": 92.9,
+    "research_environment": 30,
+    "teaching_score": 30.8
   },
   {
     "rank": 143,
-    "ranking-institution-title": "University of Technology Sydney",
+    "ranking_institution_title": "University of Technology Sydney",
     "location": "Australia",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 78,
     "Industry Score": 66,
-    "International Outlook": 89.4,
-    "Research Environment Score": 36.8,
-    "Teaching Score": 27.9
+    "international_outlook": 89.4,
+    "research_environment": 36.8,
+    "teaching_score": 27.9
   },
   {
     "rank": 144,
-    "ranking-institution-title": "University College Dublin",
+    "ranking_institution_title": "University College Dublin",
     "location": "Ireland",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 82.2,
     "Industry Score": 63.4,
-    "International Outlook": 84.9,
-    "Research Environment Score": 32.5,
-    "Teaching Score": 28.9
+    "international_outlook": 84.9,
+    "research_environment": 32.5,
+    "teaching_score": 28.9
   },
   {
     "rank": 145,
-    "ranking-institution-title": "Vanderbilt University",
+    "ranking_institution_title": "Vanderbilt University",
     "location": "United States",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 69.8,
     "Industry Score": 67.4,
-    "International Outlook": 57.5,
-    "Research Environment Score": 30.9,
-    "Teaching Score": 49.5
+    "international_outlook": 57.5,
+    "research_environment": 30.9,
+    "teaching_score": 49.5
   },
   {
     "rank": 146,
-    "ranking-institution-title": "Washington University in St Louis",
+    "ranking_institution_title": "Washington University in St Louis",
     "location": "United States",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 82.4,
     "Industry Score": 64.8,
-    "International Outlook": 86.3,
-    "Research Environment Score": 30.4,
-    "Teaching Score": 34
+    "international_outlook": 86.3,
+    "research_environment": 30.4,
+    "teaching_score": 34
   },
   {
     "rank": 147,
-    "ranking-institution-title": "The University of Western Australia",
+    "ranking_institution_title": "The University of Western Australia",
     "location": "Australia",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 82.1,
     "Industry Score": 70.7,
-    "International Outlook": 91.4,
-    "Research Environment Score": 30.5,
-    "Teaching Score": 33
+    "international_outlook": 91.4,
+    "research_environment": 30.5,
+    "teaching_score": 33
   },
   {
     "rank": 148,
-    "ranking-institution-title": "Wuhan University",
+    "ranking_institution_title": "Wuhan University",
     "location": "China",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 88.7,
     "Industry Score": 79.4,
-    "International Outlook": 51.9,
-    "Research Environment Score": 27.3,
-    "Teaching Score": 35.2
+    "international_outlook": 51.9,
+    "research_environment": 27.3,
+    "teaching_score": 35.2
   },
   {
     "rank": 149,
-    "ranking-institution-title": "University of York",
+    "ranking_institution_title": "University of York",
     "location": "United Kingdom",
     "Overall scores": "49.3â€“52.2",
     "Research Quality Score": 62.9,
     "Industry Score": 41.4,
-    "International Outlook": 92.2,
-    "Research Environment Score": 39.8,
-    "Teaching Score": 38.4
+    "international_outlook": 92.2,
+    "research_environment": 39.8,
+    "teaching_score": 38.4
   },
   {
     "rank": 150,
-    "ranking-institution-title": "University of Bayreuth",
+    "ranking_institution_title": "University of Bayreuth",
     "location": "Germany",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 83.8,
     "Industry Score": 86.1,
-    "International Outlook": 57.4,
-    "Research Environment Score": 35.2,
-    "Teaching Score": 27.1
+    "international_outlook": 57.4,
+    "research_environment": 35.2,
+    "teaching_score": 27.1
   },
   {
     "rank": 151,
-    "ranking-institution-title": "Beijing Normal University",
+    "ranking_institution_title": "Beijing Normal University",
     "location": "China",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 81.5,
     "Industry Score": 75.7,
-    "International Outlook": 66.4,
-    "Research Environment Score": 31.3,
-    "Teaching Score": 31.1
+    "international_outlook": 66.4,
+    "research_environment": 31.3,
+    "teaching_score": 31.1
   },
   {
     "rank": 152,
-    "ranking-institution-title": "Cardiff University",
+    "ranking_institution_title": "Cardiff University",
     "location": "United Kingdom",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 74.8,
     "Industry Score": 65,
-    "International Outlook": 87.2,
-    "Research Environment Score": 29.3,
-    "Teaching Score": 29.5
+    "international_outlook": 87.2,
+    "research_environment": 29.3,
+    "teaching_score": 29.5
   },
   {
     "rank": 153,
-    "ranking-institution-title": "University of Erlangen-Nuremberg",
+    "ranking_institution_title": "University of Erlangen-Nuremberg",
     "location": "Germany",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 80.1,
     "Industry Score": 100,
-    "International Outlook": 42.3,
-    "Research Environment Score": 36.5,
-    "Teaching Score": 30.3
+    "international_outlook": 42.3,
+    "research_environment": 36.5,
+    "teaching_score": 30.3
   },
   {
     "rank": 154,
-    "ranking-institution-title": "University of Essex",
+    "ranking_institution_title": "University of Essex",
     "location": "United Kingdom",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 83.3,
     "Industry Score": 39.9,
-    "International Outlook": 97.4,
-    "Research Environment Score": 30.3,
-    "Teaching Score": 27.7
+    "international_outlook": 97.4,
+    "research_environment": 30.3,
+    "teaching_score": 27.7
   },
   {
     "rank": 155,
-    "ranking-institution-title": "Georgia State University",
+    "ranking_institution_title": "Georgia State University",
     "location": "United States",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 72.8,
     "Industry Score": 68.2,
-    "International Outlook": 68.7,
-    "Research Environment Score": 31.9,
-    "Teaching Score": 33.5
+    "international_outlook": 68.7,
+    "research_environment": 31.9,
+    "teaching_score": 33.5
   },
   {
     "rank": 156,
-    "ranking-institution-title": "King Abdulaziz University",
+    "ranking_institution_title": "King Abdulaziz University",
     "location": "Saudi Arabia",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 90.3,
     "Industry Score": 37.8,
-    "International Outlook": 71.2,
-    "Research Environment Score": 26,
-    "Teaching Score": 31.3
+    "international_outlook": 71.2,
+    "research_environment": 26,
+    "teaching_score": 31.3
   },
   {
     "rank": 157,
-    "ranking-institution-title": "Korea Advanced Institute of Science and Technology (KAIST)",
+    "ranking_institution_title": "Korea Advanced Institute of Science and Technology (KAIST)",
     "location": "South Korea",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 55.5,
     "Industry Score": 82.4,
-    "International Outlook": 45.1,
-    "Research Environment Score": 40.1,
-    "Teaching Score": 46.5
+    "international_outlook": 45.1,
+    "research_environment": 40.1,
+    "teaching_score": 46.5
   },
   {
     "rank": 158,
-    "ranking-institution-title": "Kyung Hee University",
+    "ranking_institution_title": "Kyung Hee University",
     "location": "South Korea",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 74.9,
     "Industry Score": 96.5,
-    "International Outlook": 85.3,
-    "Research Environment Score": 29,
-    "Teaching Score": 26.5
+    "international_outlook": 85.3,
+    "research_environment": 29,
+    "teaching_score": 26.5
   },
   {
     "rank": 159,
-    "ranking-institution-title": "University of Newcastle",
+    "ranking_institution_title": "University of Newcastle",
     "location": "Australia",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 94.5,
     "Industry Score": 41.4,
-    "International Outlook": 92.1,
-    "Research Environment Score": 22.7,
-    "Teaching Score": 23.4
+    "international_outlook": 92.1,
+    "research_environment": 22.7,
+    "teaching_score": 23.4
   },
   {
     "rank": 160,
-    "ranking-institution-title": "Northeastern University, US",
+    "ranking_institution_title": "Northeastern University, US",
     "location": "United States",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 81.6,
     "Industry Score": 53.9,
-    "International Outlook": 80.8,
-    "Research Environment Score": 25.1,
-    "Teaching Score": 32.9
+    "international_outlook": 80.8,
+    "research_environment": 25.1,
+    "teaching_score": 32.9
   },
   {
     "rank": 161,
-    "ranking-institution-title": "Paris Sciences et Lettres â€“ PSL Research University Paris",
+    "ranking_institution_title": "Paris Sciences et Lettres â€“ PSL Research University Paris",
     "location": "France",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 52.6,
     "Industry Score": 83.6,
-    "International Outlook": 58.2,
-    "Research Environment Score": 46.6,
-    "Teaching Score": 42
+    "international_outlook": 58.2,
+    "research_environment": 46.6,
+    "teaching_score": 42
   },
   {
     "rank": 162,
-    "ranking-institution-title": "Universiti Putra Malaysia",
+    "ranking_institution_title": "Universiti Putra Malaysia",
     "location": "Malaysia",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 64.3,
     "Industry Score": 78.2,
-    "International Outlook": 81.7,
-    "Research Environment Score": 38.2,
-    "Teaching Score": 32
+    "international_outlook": 81.7,
+    "research_environment": 38.2,
+    "teaching_score": 32
   },
   {
     "rank": 163,
-    "ranking-institution-title": "Universiti Sains Malaysia",
+    "ranking_institution_title": "Universiti Sains Malaysia",
     "location": "Malaysia",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 76.1,
     "Industry Score": 60.5,
-    "International Outlook": 63.1,
-    "Research Environment Score": 32.7,
-    "Teaching Score": 36.6
+    "international_outlook": 63.1,
+    "research_environment": 32.7,
+    "teaching_score": 36.6
   },
   {
     "rank": 164,
-    "ranking-institution-title": "Sejong University",
+    "ranking_institution_title": "Sejong University",
     "location": "South Korea",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 95.1,
     "Industry Score": 61.6,
-    "International Outlook": 70.4,
-    "Research Environment Score": 22.2,
-    "Teaching Score": 27.6
+    "international_outlook": 70.4,
+    "research_environment": 22.2,
+    "teaching_score": 27.6
   },
   {
     "rank": 165,
-    "ranking-institution-title": "University of Southern Denmark",
+    "ranking_institution_title": "University of Southern Denmark",
     "location": "Denmark",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 86.2,
     "Industry Score": 65.1,
-    "International Outlook": 81.4,
-    "Research Environment Score": 28.1,
-    "Teaching Score": 24.5
+    "international_outlook": 81.4,
+    "research_environment": 28.1,
+    "teaching_score": 24.5
   },
   {
     "rank": 166,
-    "ranking-institution-title": "Stockholm University",
+    "ranking_institution_title": "Stockholm University",
     "location": "Sweden",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 72,
     "Industry Score": 82.4,
-    "International Outlook": 59.2,
-    "Research Environment Score": 43.9,
-    "Teaching Score": 27.8
+    "international_outlook": 59.2,
+    "research_environment": 43.9,
+    "teaching_score": 27.8
   },
   {
     "rank": 167,
-    "ranking-institution-title": "Sun Yat-sen University",
+    "ranking_institution_title": "Sun Yat-sen University",
     "location": "China",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 81.2,
     "Industry Score": 90.1,
-    "International Outlook": 57.1,
-    "Research Environment Score": 30.8,
-    "Teaching Score": 30.8
+    "international_outlook": 57.1,
+    "research_environment": 30.8,
+    "teaching_score": 30.8
   },
   {
     "rank": 168,
-    "ranking-institution-title": "Swansea University",
+    "ranking_institution_title": "Swansea University",
     "location": "United Kingdom",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 97.1,
     "Industry Score": 66.7,
-    "International Outlook": 89,
-    "Research Environment Score": 23.8,
-    "Teaching Score": 19.9
+    "international_outlook": 89,
+    "research_environment": 23.8,
+    "teaching_score": 19.9
   },
   {
     "rank": 169,
-    "ranking-institution-title": "Swinburne University of Technology",
+    "ranking_institution_title": "Swinburne University of Technology",
     "location": "Australia",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 93.2,
     "Industry Score": 61.1,
-    "International Outlook": 80,
-    "Research Environment Score": 22.9,
-    "Teaching Score": 24.9
+    "international_outlook": 80,
+    "research_environment": 22.9,
+    "teaching_score": 24.9
   },
   {
     "rank": 170,
-    "ranking-institution-title": "Technical University of Berlin",
+    "ranking_institution_title": "Technical University of Berlin",
     "location": "Germany",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 70.6,
     "Industry Score": 99.2,
-    "International Outlook": 50.3,
-    "Research Environment Score": 39,
-    "Teaching Score": 31.8
+    "international_outlook": 50.3,
+    "research_environment": 39,
+    "teaching_score": 31.8
   },
   {
     "rank": 171,
-    "ranking-institution-title": "Temple University",
+    "ranking_institution_title": "Temple University",
     "location": "United States",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 82.5,
     "Industry Score": 60.2,
-    "International Outlook": 53.5,
-    "Research Environment Score": 30.3,
-    "Teaching Score": 34.4
+    "international_outlook": 53.5,
+    "research_environment": 30.3,
+    "teaching_score": 34.4
   },
   {
     "rank": 172,
-    "ranking-institution-title": "Tianjin University",
+    "ranking_institution_title": "Tianjin University",
     "location": "China",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 73.2,
     "Industry Score": 93.1,
-    "International Outlook": 57.8,
-    "Research Environment Score": 33,
-    "Teaching Score": 35.4
+    "international_outlook": 57.8,
+    "research_environment": 33,
+    "teaching_score": 35.4
   },
   {
     "rank": 173,
-    "ranking-institution-title": "Ural Federal University",
+    "ranking_institution_title": "Ural Federal University",
     "location": "",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 76.3,
     "Industry Score": 50,
-    "International Outlook": 78.5,
-    "Research Environment Score": 33,
-    "Teaching Score": 29.1
+    "international_outlook": 78.5,
+    "research_environment": 33,
+    "teaching_score": 29.1
   },
   {
     "rank": 174,
-    "ranking-institution-title": "University of Waikato",
+    "ranking_institution_title": "University of Waikato",
     "location": "New Zealand",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 91.7,
     "Industry Score": 73.9,
-    "International Outlook": 95.4,
-    "Research Environment Score": 23.7,
-    "Teaching Score": 21.2
+    "international_outlook": 95.4,
+    "research_environment": 23.7,
+    "teaching_score": 21.2
   },
   {
     "rank": 175,
-    "ranking-institution-title": "University of Waterloo",
+    "ranking_institution_title": "University of Waterloo",
     "location": "Canada",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 75.4,
     "Industry Score": 66.6,
-    "International Outlook": 84.2,
-    "Research Environment Score": 32.5,
-    "Teaching Score": 31
+    "international_outlook": 84.2,
+    "research_environment": 32.5,
+    "teaching_score": 31
   },
   {
     "rank": 176,
-    "ranking-institution-title": "Worcester Polytechnic Institute",
+    "ranking_institution_title": "Worcester Polytechnic Institute",
     "location": "United States",
     "Overall scores": "47.4â€“49.2",
     "Research Quality Score": 98.6,
     "Industry Score": 67.2,
-    "International Outlook": 67.9,
-    "Research Environment Score": 21.9,
-    "Teaching Score": 23
+    "international_outlook": 67.9,
+    "research_environment": 21.9,
+    "teaching_score": 23
   },
   {
     "rank": 177,
-    "ranking-institution-title": "University of Adelaide",
+    "ranking_institution_title": "University of Adelaide",
     "location": "Australia",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 65.4,
     "Industry Score": 52.4,
-    "International Outlook": 94.7,
-    "Research Environment Score": 36.1,
-    "Teaching Score": 27.4
+    "international_outlook": 94.7,
+    "research_environment": 36.1,
+    "teaching_score": 27.4
   },
   {
     "rank": 178,
-    "ranking-institution-title": "Aston University",
+    "ranking_institution_title": "Aston University",
     "location": "United Kingdom",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 93.6,
     "Industry Score": 52.3,
-    "International Outlook": 91.2,
-    "Research Environment Score": 22.2,
-    "Teaching Score": 21.3
+    "international_outlook": 91.2,
+    "research_environment": 22.2,
+    "teaching_score": 21.3
   },
   {
     "rank": 179,
-    "ranking-institution-title": "University of Canterbury",
+    "ranking_institution_title": "University of Canterbury",
     "location": "New Zealand",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 93.1,
     "Industry Score": 58.2,
-    "International Outlook": 85.2,
-    "Research Environment Score": 22.4,
-    "Teaching Score": 19.4
+    "international_outlook": 85.2,
+    "research_environment": 22.4,
+    "teaching_score": 19.4
   },
   {
     "rank": 180,
-    "ranking-institution-title": "UniversitÃ© Catholique de Louvain",
+    "ranking_institution_title": "UniversitÃ© Catholique de Louvain",
     "location": "Belgium",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 54.9,
     "Industry Score": 64,
-    "International Outlook": 70,
-    "Research Environment Score": 43.2,
-    "Teaching Score": 35
+    "international_outlook": 70,
+    "research_environment": 43.2,
+    "teaching_score": 35
   },
   {
     "rank": 181,
-    "ranking-institution-title": "Curtin University",
+    "ranking_institution_title": "Curtin University",
     "location": "Australia",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 79.6,
     "Industry Score": 67.5,
-    "International Outlook": 95.9,
-    "Research Environment Score": 24,
-    "Teaching Score": 24.9
+    "international_outlook": 95.9,
+    "research_environment": 24,
+    "teaching_score": 24.9
   },
   {
     "rank": 182,
-    "ranking-institution-title": "University of Exeter",
+    "ranking_institution_title": "University of Exeter",
     "location": "United Kingdom",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 84.3,
     "Industry Score": 38.8,
-    "International Outlook": 96.4,
-    "Research Environment Score": 27.4,
-    "Teaching Score": 20.9
+    "international_outlook": 96.4,
+    "research_environment": 27.4,
+    "teaching_score": 20.9
   },
   {
     "rank": 183,
-    "ranking-institution-title": "Free University of Bozen-Bolzano",
+    "ranking_institution_title": "Free University of Bozen-Bolzano",
     "location": "Italy",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 97.5,
     "Industry Score": 19.4,
-    "International Outlook": 84.9,
-    "Research Environment Score": 23.9,
-    "Teaching Score": 19.4
+    "international_outlook": 84.9,
+    "research_environment": 23.9,
+    "teaching_score": 19.4
   },
   {
     "rank": 184,
-    "ranking-institution-title": "Georgetown University",
+    "ranking_institution_title": "Georgetown University",
     "location": "United States",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 75.7,
     "Industry Score": 68.9,
-    "International Outlook": 51.9,
-    "Research Environment Score": 26.4,
-    "Teaching Score": 40.5
+    "international_outlook": 51.9,
+    "research_environment": 26.4,
+    "teaching_score": 40.5
   },
   {
     "rank": 185,
-    "ranking-institution-title": "Harbin Institute of Technology",
+    "ranking_institution_title": "Harbin Institute of Technology",
     "location": "China",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 73.3,
     "Industry Score": 65.4,
-    "International Outlook": 56.7,
-    "Research Environment Score": 28,
-    "Teaching Score": 37.8
+    "international_outlook": 56.7,
+    "research_environment": 28,
+    "teaching_score": 37.8
   },
   {
     "rank": 186,
-    "ranking-institution-title": "Huazhong University of Science and Technology",
+    "ranking_institution_title": "Huazhong University of Science and Technology",
     "location": "China",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 84.1,
     "Industry Score": 85,
-    "International Outlook": 54.6,
-    "Research Environment Score": 24.6,
-    "Teaching Score": 32.9
+    "international_outlook": 54.6,
+    "research_environment": 24.6,
+    "teaching_score": 32.9
   },
   {
     "rank": 187,
-    "ranking-institution-title": "University of Innsbruck",
+    "ranking_institution_title": "University of Innsbruck",
     "location": "Austria",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 70.1,
     "Industry Score": 87.2,
-    "International Outlook": 90.5,
-    "Research Environment Score": 31.8,
-    "Teaching Score": 26.1
+    "international_outlook": 90.5,
+    "research_environment": 31.8,
+    "teaching_score": 26.1
   },
   {
     "rank": 188,
-    "ranking-institution-title": "LinkÃ¶ping University",
+    "ranking_institution_title": "LinkÃ¶ping University",
     "location": "Sweden",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 88,
     "Industry Score": 94.2,
-    "International Outlook": 63.2,
-    "Research Environment Score": 32.1,
-    "Teaching Score": 17.6
+    "international_outlook": 63.2,
+    "research_environment": 32.1,
+    "teaching_score": 17.6
   },
   {
     "rank": 189,
-    "ranking-institution-title": "North Carolina State University",
+    "ranking_institution_title": "North Carolina State University",
     "location": "United States",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 74.2,
     "Industry Score": 87.2,
-    "International Outlook": 46.3,
-    "Research Environment Score": 31.2,
-    "Teaching Score": 33.9
+    "international_outlook": 46.3,
+    "research_environment": 31.2,
+    "teaching_score": 33.9
   },
   {
     "rank": 190,
-    "ranking-institution-title": "Peter the Great St Petersburg Polytechnic University",
+    "ranking_institution_title": "Peter the Great St Petersburg Polytechnic University",
     "location": "",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 72.1,
     "Industry Score": 24.2,
-    "International Outlook": 64.6,
-    "Research Environment Score": 28.3,
-    "Teaching Score": 40.9
+    "international_outlook": 64.6,
+    "research_environment": 28.3,
+    "teaching_score": 40.9
   },
   {
     "rank": 191,
-    "ranking-institution-title": "Radboud University Nijmegen",
+    "ranking_institution_title": "Radboud University Nijmegen",
     "location": "Netherlands",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 83.8,
     "Industry Score": 67,
-    "International Outlook": 64.2,
-    "Research Environment Score": 32.1,
-    "Teaching Score": 24.1
+    "international_outlook": 64.2,
+    "research_environment": 32.1,
+    "teaching_score": 24.1
   },
   {
     "rank": 192,
-    "ranking-institution-title": "University of Rochester",
+    "ranking_institution_title": "University of Rochester",
     "location": "United States",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 68.6,
     "Industry Score": 67.3,
-    "International Outlook": 79.5,
-    "Research Environment Score": 28.5,
-    "Teaching Score": 36.3
+    "international_outlook": 79.5,
+    "research_environment": 28.5,
+    "teaching_score": 36.3
   },
   {
     "rank": 193,
-    "ranking-institution-title": "Sapienza University of Rome",
+    "ranking_institution_title": "Sapienza University of Rome",
     "location": "Italy",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 69.9,
     "Industry Score": 75.5,
-    "International Outlook": 41.8,
-    "Research Environment Score": 32.7,
-    "Teaching Score": 40.3
+    "international_outlook": 41.8,
+    "research_environment": 32.7,
+    "teaching_score": 40.3
   },
   {
     "rank": 194,
-    "ranking-institution-title": "University of South Australia",
+    "ranking_institution_title": "University of South Australia",
     "location": "Australia",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 78,
     "Industry Score": 94.6,
-    "International Outlook": 84.6,
-    "Research Environment Score": 33,
-    "Teaching Score": 19
+    "international_outlook": 84.6,
+    "research_environment": 33,
+    "teaching_score": 19
   },
   {
     "rank": 195,
-    "ranking-institution-title": "Universiti Teknologi Malaysia",
+    "ranking_institution_title": "Universiti Teknologi Malaysia",
     "location": "Malaysia",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 78.7,
     "Industry Score": 67.6,
-    "International Outlook": 69.7,
-    "Research Environment Score": 29.1,
-    "Teaching Score": 31.1
+    "international_outlook": 69.7,
+    "research_environment": 29.1,
+    "teaching_score": 31.1
   },
   {
     "rank": 196,
-    "ranking-institution-title": "United Arab Emirates University",
+    "ranking_institution_title": "United Arab Emirates University",
     "location": "United Arab Emirates",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 86.9,
     "Industry Score": 67.9,
-    "International Outlook": 83.1,
-    "Research Environment Score": 26,
-    "Teaching Score": 22.9
+    "international_outlook": 83.1,
+    "research_environment": 26,
+    "teaching_score": 22.9
   },
   {
     "rank": 197,
-    "ranking-institution-title": "Universiti Utara Malaysia",
+    "ranking_institution_title": "Universiti Utara Malaysia",
     "location": "Malaysia",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 71.8,
     "Industry Score": 44.1,
-    "International Outlook": 67.2,
-    "Research Environment Score": 30.4,
-    "Teaching Score": 39.1
+    "international_outlook": 67.2,
+    "research_environment": 30.4,
+    "teaching_score": 39.1
   },
   {
     "rank": 198,
-    "ranking-institution-title": "Washington State University",
+    "ranking_institution_title": "Washington State University",
     "location": "United States",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 75.1,
     "Industry Score": 75.7,
-    "International Outlook": 63.4,
-    "Research Environment Score": 30.1,
-    "Teaching Score": 32
+    "international_outlook": 63.4,
+    "research_environment": 30.1,
+    "teaching_score": 32
   },
   {
     "rank": 199,
-    "ranking-institution-title": "University of Wollongong",
+    "ranking_institution_title": "University of Wollongong",
     "location": "Australia",
     "Overall scores": "46.2â€“47.3",
     "Research Quality Score": 73.2,
     "Industry Score": 94.9,
-    "International Outlook": 88.8,
-    "Research Environment Score": 27.3,
-    "Teaching Score": 25.4
+    "international_outlook": 88.8,
+    "research_environment": 27.3,
+    "teaching_score": 25.4
   },
   {
     "rank": 200,
-    "ranking-institution-title": "Aalborg University",
+    "ranking_institution_title": "Aalborg University",
     "location": "Denmark",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 72.1,
     "Industry Score": 56.7,
-    "International Outlook": 63.5,
-    "Research Environment Score": 36.3,
-    "Teaching Score": 23.6
+    "international_outlook": 63.5,
+    "research_environment": 36.3,
+    "teaching_score": 23.6
   },
   {
     "rank": 201,
-    "ranking-institution-title": "University of Aberdeen",
+    "ranking_institution_title": "University of Aberdeen",
     "location": "United Kingdom",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 72.6,
     "Industry Score": 67.6,
-    "International Outlook": 97.5,
-    "Research Environment Score": 23.2,
-    "Teaching Score": 28.7
+    "international_outlook": 97.5,
+    "research_environment": 23.2,
+    "teaching_score": 28.7
   },
   {
     "rank": 202,
-    "ranking-institution-title": "University of Antwerp",
+    "ranking_institution_title": "University of Antwerp",
     "location": "Belgium",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 70.3,
     "Industry Score": 98,
-    "International Outlook": 61,
-    "Research Environment Score": 34.4,
-    "Teaching Score": 26.8
+    "international_outlook": 61,
+    "research_environment": 34.4,
+    "teaching_score": 26.8
   },
   {
     "rank": 203,
-    "ranking-institution-title": "Asia University, Taiwan",
+    "ranking_institution_title": "Asia University, Taiwan",
     "location": "Taiwan",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 93.4,
     "Industry Score": 71.4,
-    "International Outlook": 59,
-    "Research Environment Score": 26.9,
-    "Teaching Score": 18
+    "international_outlook": 59,
+    "research_environment": 26.9,
+    "teaching_score": 18
   },
   {
     "rank": 204,
-    "ranking-institution-title": "University of Bern",
+    "ranking_institution_title": "University of Bern",
     "location": "Switzerland",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 76.7,
     "Industry Score": 76.6,
-    "International Outlook": 74,
-    "Research Environment Score": 28.5,
-    "Teaching Score": 25.4
+    "international_outlook": 74,
+    "research_environment": 28.5,
+    "teaching_score": 25.4
   },
   {
     "rank": 205,
-    "ranking-institution-title": "University of Bradford",
+    "ranking_institution_title": "University of Bradford",
     "location": "United Kingdom",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 94,
     "Industry Score": 63.7,
-    "International Outlook": 93.9,
-    "Research Environment Score": 20.2,
-    "Teaching Score": 17
+    "international_outlook": 93.9,
+    "research_environment": 20.2,
+    "teaching_score": 17
   },
   {
     "rank": 206,
-    "ranking-institution-title": "University of Bristol",
+    "ranking_institution_title": "University of Bristol",
     "location": "United Kingdom",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 73.1,
     "Industry Score": 51.6,
-    "International Outlook": 91.2,
-    "Research Environment Score": 24.2,
-    "Teaching Score": 29.8
+    "international_outlook": 91.2,
+    "research_environment": 24.2,
+    "teaching_score": 29.8
   },
   {
     "rank": 207,
-    "ranking-institution-title": "University of California, Irvine",
+    "ranking_institution_title": "University of California, Irvine",
     "location": "United States",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 60.3,
     "Industry Score": 67.5,
-    "International Outlook": 83.2,
-    "Research Environment Score": 31,
-    "Teaching Score": 31.9
+    "international_outlook": 83.2,
+    "research_environment": 31,
+    "teaching_score": 31.9
   },
   {
     "rank": 208,
-    "ranking-institution-title": "Carlos III University of Madrid",
+    "ranking_institution_title": "Carlos III University of Madrid",
     "location": "Spain",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 48.6,
     "Industry Score": 70.6,
-    "International Outlook": 68.5,
-    "Research Environment Score": 34.8,
-    "Teaching Score": 43.6
+    "international_outlook": 68.5,
+    "research_environment": 34.8,
+    "teaching_score": 43.6
   },
   {
     "rank": 209,
-    "ranking-institution-title": "Case Western Reserve University",
+    "ranking_institution_title": "Case Western Reserve University",
     "location": "United States",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 78.8,
     "Industry Score": 66.5,
-    "International Outlook": 71.8,
-    "Research Environment Score": 22.4,
-    "Teaching Score": 27.5
+    "international_outlook": 71.8,
+    "research_environment": 22.4,
+    "teaching_score": 27.5
   },
   {
     "rank": 210,
-    "ranking-institution-title": "Charles University",
+    "ranking_institution_title": "Charles University",
     "location": "Czech Republic",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 55,
     "Industry Score": 68.5,
-    "International Outlook": 76.4,
-    "Research Environment Score": 35.1,
-    "Teaching Score": 37.2
+    "international_outlook": 76.4,
+    "research_environment": 35.1,
+    "teaching_score": 37.2
   },
   {
     "rank": 211,
-    "ranking-institution-title": "Chongqing University",
+    "ranking_institution_title": "Chongqing University",
     "location": "China",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 83.1,
     "Industry Score": 70.4,
-    "International Outlook": 62.9,
-    "Research Environment Score": 22.3,
-    "Teaching Score": 27.6
+    "international_outlook": 62.9,
+    "research_environment": 22.3,
+    "teaching_score": 27.6
   },
   {
     "rank": 212,
-    "ranking-institution-title": "Dalian University of Technology",
+    "ranking_institution_title": "Dalian University of Technology",
     "location": "China",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 92.3,
     "Industry Score": 74.2,
-    "International Outlook": 47.7,
-    "Research Environment Score": 21,
-    "Teaching Score": 29.8
+    "international_outlook": 47.7,
+    "research_environment": 21,
+    "teaching_score": 29.8
   },
   {
     "rank": 213,
-    "ranking-institution-title": "Deakin University",
+    "ranking_institution_title": "Deakin University",
     "location": "Australia",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 81.9,
     "Industry Score": 78.2,
-    "International Outlook": 90.6,
-    "Research Environment Score": 24.5,
-    "Teaching Score": 21.2
+    "international_outlook": 90.6,
+    "research_environment": 24.5,
+    "teaching_score": 21.2
   },
   {
     "rank": 214,
-    "ranking-institution-title": "Dublin City University",
+    "ranking_institution_title": "Dublin City University",
     "location": "Ireland",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 93.6,
     "Industry Score": 55.8,
-    "International Outlook": 73.2,
-    "Research Environment Score": 22.9,
-    "Teaching Score": 18.2
+    "international_outlook": 73.2,
+    "research_environment": 22.9,
+    "teaching_score": 18.2
   },
   {
     "rank": 215,
-    "ranking-institution-title": "Edith Cowan University",
+    "ranking_institution_title": "Edith Cowan University",
     "location": "Australia",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 90.4,
     "Industry Score": 48.2,
-    "International Outlook": 96,
-    "Research Environment Score": 19.4,
-    "Teaching Score": 18.7
+    "international_outlook": 96,
+    "research_environment": 19.4,
+    "teaching_score": 18.7
   },
   {
     "rank": 216,
-    "ranking-institution-title": "University of Geneva",
+    "ranking_institution_title": "University of Geneva",
     "location": "Switzerland",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 64.9,
     "Industry Score": 74.6,
-    "International Outlook": 94.2,
-    "Research Environment Score": 27.2,
-    "Teaching Score": 27.9
+    "international_outlook": 94.2,
+    "research_environment": 27.2,
+    "teaching_score": 27.9
   },
   {
     "rank": 217,
-    "ranking-institution-title": "Goethe University Frankfurt",
+    "ranking_institution_title": "Goethe University Frankfurt",
     "location": "Germany",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 51.9,
     "Industry Score": 89,
-    "International Outlook": 69.3,
-    "Research Environment Score": 35.9,
-    "Teaching Score": 33.9
+    "international_outlook": 69.3,
+    "research_environment": 35.9,
+    "teaching_score": 33.9
   },
   {
     "rank": 218,
-    "ranking-institution-title": "University of Hamburg",
+    "ranking_institution_title": "University of Hamburg",
     "location": "Germany",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 65.5,
     "Industry Score": 87.4,
-    "International Outlook": 52.3,
-    "Research Environment Score": 38.3,
-    "Teaching Score": 29.4
+    "international_outlook": 52.3,
+    "research_environment": 38.3,
+    "teaching_score": 29.4
   },
   {
     "rank": 219,
-    "ranking-institution-title": "Hanyang University",
+    "ranking_institution_title": "Hanyang University",
     "location": "South Korea",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 68.8,
     "Industry Score": 88.6,
-    "International Outlook": 67.8,
-    "Research Environment Score": 25.9,
-    "Teaching Score": 32.9
+    "international_outlook": 67.8,
+    "research_environment": 25.9,
+    "teaching_score": 32.9
   },
   {
     "rank": 220,
-    "ranking-institution-title": "University of Huddersfield",
+    "ranking_institution_title": "University of Huddersfield",
     "location": "United Kingdom",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 85.3,
     "Industry Score": 33.3,
-    "International Outlook": 95,
-    "Research Environment Score": 20.2,
-    "Teaching Score": 26.8
+    "international_outlook": 95,
+    "research_environment": 20.2,
+    "teaching_score": 26.8
   },
   {
     "rank": 221,
-    "ranking-institution-title": "University of Iowa",
+    "ranking_institution_title": "University of Iowa",
     "location": "United States",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 75.9,
     "Industry Score": 68,
-    "International Outlook": 58.1,
-    "Research Environment Score": 32.1,
-    "Teaching Score": 24.7
+    "international_outlook": 58.1,
+    "research_environment": 32.1,
+    "teaching_score": 24.7
   },
   {
     "rank": 222,
-    "ranking-institution-title": "University of Johannesburg",
+    "ranking_institution_title": "University of Johannesburg",
     "location": "South Africa",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 77.6,
     "Industry Score": 65.4,
-    "International Outlook": 72.1,
-    "Research Environment Score": 31.3,
-    "Teaching Score": 22.2
+    "international_outlook": 72.1,
+    "research_environment": 31.3,
+    "teaching_score": 22.2
   },
   {
     "rank": 223,
-    "ranking-institution-title": "Johannes Kepler University of Linz",
+    "ranking_institution_title": "Johannes Kepler University of Linz",
     "location": "Austria",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 79.1,
     "Industry Score": 84.7,
-    "International Outlook": 70.2,
-    "Research Environment Score": 24.3,
-    "Teaching Score": 25.4
+    "international_outlook": 70.2,
+    "research_environment": 24.3,
+    "teaching_score": 25.4
   },
   {
     "rank": 224,
-    "ranking-institution-title": "King Fahd University of Petroleum and Minerals",
+    "ranking_institution_title": "King Fahd University of Petroleum and Minerals",
     "location": "Saudi Arabia",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 74.4,
     "Industry Score": 96.6,
-    "International Outlook": 73.8,
-    "Research Environment Score": 23,
-    "Teaching Score": 26.1
+    "international_outlook": 73.8,
+    "research_environment": 23,
+    "teaching_score": 26.1
   },
   {
     "rank": 225,
-    "ranking-institution-title": "KoÃ§ University",
+    "ranking_institution_title": "KoÃ§ University",
     "location": "Turkey",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 62.5,
     "Industry Score": 100,
-    "International Outlook": 63.1,
-    "Research Environment Score": 34.5,
-    "Teaching Score": 26.7
+    "international_outlook": 63.1,
+    "research_environment": 34.5,
+    "teaching_score": 26.7
   },
   {
     "rank": 226,
-    "ranking-institution-title": "Korea University",
+    "ranking_institution_title": "Korea University",
     "location": "South Korea",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 55.6,
     "Industry Score": 99.5,
-    "International Outlook": 76.5,
-    "Research Environment Score": 29.6,
-    "Teaching Score": 37.7
+    "international_outlook": 76.5,
+    "research_environment": 29.6,
+    "teaching_score": 37.7
   },
   {
     "rank": 227,
-    "ranking-institution-title": "University of Lausanne",
+    "ranking_institution_title": "University of Lausanne",
     "location": "Switzerland",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 56.4,
     "Industry Score": 50,
-    "International Outlook": 87.3,
-    "Research Environment Score": 36.2,
-    "Teaching Score": 33.1
+    "international_outlook": 87.3,
+    "research_environment": 36.2,
+    "teaching_score": 33.1
   },
   {
     "rank": 228,
-    "ranking-institution-title": "University of Liverpool",
+    "ranking_institution_title": "University of Liverpool",
     "location": "United Kingdom",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 68,
     "Industry Score": 51.1,
-    "International Outlook": 96.4,
-    "Research Environment Score": 25.2,
-    "Teaching Score": 31
+    "international_outlook": 96.4,
+    "research_environment": 25.2,
+    "teaching_score": 31
   },
   {
     "rank": 229,
-    "ranking-institution-title": "McMaster University",
+    "ranking_institution_title": "McMaster University",
     "location": "Canada",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 72.1,
     "Industry Score": 87.2,
-    "International Outlook": 90.9,
-    "Research Environment Score": 28.5,
-    "Teaching Score": 23.3
+    "international_outlook": 90.9,
+    "research_environment": 28.5,
+    "teaching_score": 23.3
   },
   {
     "rank": 230,
-    "ranking-institution-title": "Montpellier University",
+    "ranking_institution_title": "Montpellier University",
     "location": "France",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 91.4,
     "Industry Score": 40.6,
-    "International Outlook": 68.3,
-    "Research Environment Score": 25.6,
-    "Teaching Score": 23.6
+    "international_outlook": 68.3,
+    "research_environment": 25.6,
+    "teaching_score": 23.6
   },
   {
     "rank": 231,
-    "ranking-institution-title": "Nankai University",
+    "ranking_institution_title": "Nankai University",
     "location": "China",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 76.1,
     "Industry Score": 59.5,
-    "International Outlook": 62.2,
-    "Research Environment Score": 20.7,
-    "Teaching Score": 35.8
+    "international_outlook": 62.2,
+    "research_environment": 20.7,
+    "teaching_score": 35.8
   },
   {
     "rank": 232,
-    "ranking-institution-title": "Newcastle University",
+    "ranking_institution_title": "Newcastle University",
     "location": "United Kingdom",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 81.3,
     "Industry Score": 40.9,
-    "International Outlook": 91.1,
-    "Research Environment Score": 22.6,
-    "Teaching Score": 24.2
+    "international_outlook": 91.1,
+    "research_environment": 22.6,
+    "teaching_score": 24.2
   },
   {
     "rank": 233,
-    "ranking-institution-title": "University of Nicosia",
+    "ranking_institution_title": "University of Nicosia",
     "location": "Cyprus",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 94.4,
     "Industry Score": 61,
-    "International Outlook": 82.5,
-    "Research Environment Score": 21.7,
-    "Teaching Score": 18.9
+    "international_outlook": 82.5,
+    "research_environment": 21.7,
+    "teaching_score": 18.9
   },
   {
     "rank": 234,
-    "ranking-institution-title": "University of Notre Dame",
+    "ranking_institution_title": "University of Notre Dame",
     "location": "United States",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 81.6,
     "Industry Score": 69.3,
-    "International Outlook": 60.1,
-    "Research Environment Score": 24.9,
-    "Teaching Score": 31.2
+    "international_outlook": 60.1,
+    "research_environment": 24.9,
+    "teaching_score": 31.2
   },
   {
     "rank": 235,
-    "ranking-institution-title": "NOVA University of Lisbon",
+    "ranking_institution_title": "NOVA University of Lisbon",
     "location": "Portugal",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 77.6,
     "Industry Score": 64.8,
-    "International Outlook": 73.5,
-    "Research Environment Score": 28.1,
-    "Teaching Score": 25.2
+    "international_outlook": 73.5,
+    "research_environment": 28.1,
+    "teaching_score": 25.2
   },
   {
     "rank": 236,
-    "ranking-institution-title": "University of Otago",
+    "ranking_institution_title": "University of Otago",
     "location": "New Zealand",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 70.7,
     "Industry Score": 46.7,
-    "International Outlook": 77.1,
-    "Research Environment Score": 27.8,
-    "Teaching Score": 30.1
+    "international_outlook": 77.1,
+    "research_environment": 27.8,
+    "teaching_score": 30.1
   },
   {
     "rank": 237,
-    "ranking-institution-title": "University of Padua",
+    "ranking_institution_title": "University of Padua",
     "location": "Italy",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 78.3,
     "Industry Score": 76.7,
-    "International Outlook": 52.5,
-    "Research Environment Score": 29.4,
-    "Teaching Score": 29.4
+    "international_outlook": 52.5,
+    "research_environment": 29.4,
+    "teaching_score": 29.4
   },
   {
     "rank": 238,
-    "ranking-institution-title": "University of Pittsburgh-Pittsburgh campus",
+    "ranking_institution_title": "University of Pittsburgh-Pittsburgh campus",
     "location": "United States",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 71.6,
     "Industry Score": 68.6,
-    "International Outlook": 55.8,
-    "Research Environment Score": 34.9,
-    "Teaching Score": 27.3
+    "international_outlook": 55.8,
+    "research_environment": 34.9,
+    "teaching_score": 27.3
   },
   {
     "rank": 239,
-    "ranking-institution-title": "Pusan National University",
+    "ranking_institution_title": "Pusan National University",
     "location": "South Korea",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 85.4,
     "Industry Score": 81.7,
-    "International Outlook": 61,
-    "Research Environment Score": 22.3,
-    "Teaching Score": 23.8
+    "international_outlook": 61,
+    "research_environment": 22.3,
+    "teaching_score": 23.8
   },
   {
     "rank": 240,
-    "ranking-institution-title": "Queen Mary University of London",
+    "ranking_institution_title": "Queen Mary University of London",
     "location": "United Kingdom",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 78.9,
     "Industry Score": 55.8,
-    "International Outlook": 96.2,
-    "Research Environment Score": 24.6,
-    "Teaching Score": 24.9
+    "international_outlook": 96.2,
+    "research_environment": 24.6,
+    "teaching_score": 24.9
   },
   {
     "rank": 241,
-    "ranking-institution-title": "Rice University",
+    "ranking_institution_title": "Rice University",
     "location": "United States",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 60.8,
     "Industry Score": 61.2,
-    "International Outlook": 70.2,
-    "Research Environment Score": 28,
-    "Teaching Score": 40.9
+    "international_outlook": 70.2,
+    "research_environment": 28,
+    "teaching_score": 40.9
   },
   {
     "rank": 242,
-    "ranking-institution-title": "University of Sharjah",
+    "ranking_institution_title": "University of Sharjah",
     "location": "United Arab Emirates",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 97.5,
     "Industry Score": 44.1,
-    "International Outlook": 96.8,
-    "Research Environment Score": 20.7,
-    "Teaching Score": 14.7
+    "international_outlook": 96.8,
+    "research_environment": 20.7,
+    "teaching_score": 14.7
   },
   {
     "rank": 243,
-    "ranking-institution-title": "SOAS University of London",
+    "ranking_institution_title": "SOAS University of London",
     "location": "United Kingdom",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 70.2,
     "Industry Score": 17.5,
-    "International Outlook": 88.8,
-    "Research Environment Score": 28.4,
-    "Teaching Score": 35
+    "international_outlook": 88.8,
+    "research_environment": 28.4,
+    "teaching_score": 35
   },
   {
     "rank": 244,
-    "ranking-institution-title": "University of Strathclyde",
+    "ranking_institution_title": "University of Strathclyde",
     "location": "United Kingdom",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 69.9,
     "Industry Score": 55.1,
-    "International Outlook": 87.7,
-    "Research Environment Score": 26.9,
-    "Teaching Score": 29.9
+    "international_outlook": 87.7,
+    "research_environment": 26.9,
+    "teaching_score": 29.9
   },
   {
     "rank": 245,
-    "ranking-institution-title": "Syracuse University",
+    "ranking_institution_title": "Syracuse University",
     "location": "United States",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 69.1,
     "Industry Score": 99.8,
-    "International Outlook": 52.4,
-    "Research Environment Score": 32.6,
-    "Teaching Score": 28.7
+    "international_outlook": 52.4,
+    "research_environment": 32.6,
+    "teaching_score": 28.7
   },
   {
     "rank": 246,
-    "ranking-institution-title": "Virginia Polytechnic Institute and State University",
+    "ranking_institution_title": "Virginia Polytechnic Institute and State University",
     "location": "United States",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 73.8,
     "Industry Score": 67.8,
-    "International Outlook": 59,
-    "Research Environment Score": 31.5,
-    "Teaching Score": 30.6
+    "international_outlook": 59,
+    "research_environment": 31.5,
+    "teaching_score": 30.6
   },
   {
     "rank": 247,
-    "ranking-institution-title": "Xiamen University",
+    "ranking_institution_title": "Xiamen University",
     "location": "China",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 81.1,
     "Industry Score": 53.3,
-    "International Outlook": 45.5,
-    "Research Environment Score": 24.5,
-    "Teaching Score": 33.7
+    "international_outlook": 45.5,
+    "research_environment": 24.5,
+    "teaching_score": 33.7
   },
   {
     "rank": 248,
-    "ranking-institution-title": "Xiâ€™an Jiaotong University",
+    "ranking_institution_title": "Xiâ€™an Jiaotong University",
     "location": "China",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 79.2,
     "Industry Score": 91.4,
-    "International Outlook": 64.3,
-    "Research Environment Score": 29.2,
-    "Teaching Score": 24.1
+    "international_outlook": 64.3,
+    "research_environment": 29.2,
+    "teaching_score": 24.1
   },
   {
     "rank": 249,
-    "ranking-institution-title": "York University",
+    "ranking_institution_title": "York University",
     "location": "Canada",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 72.2,
     "Industry Score": 36.4,
-    "International Outlook": 85.3,
-    "Research Environment Score": 31.9,
-    "Teaching Score": 27.7
+    "international_outlook": 85.3,
+    "research_environment": 31.9,
+    "teaching_score": 27.7
   },
   {
     "rank": 250,
-    "ranking-institution-title": "Zayed University",
+    "ranking_institution_title": "Zayed University",
     "location": "United Arab Emirates",
     "Overall scores": "44.3â€“46.1",
     "Research Quality Score": 89,
     "Industry Score": 17.5,
-    "International Outlook": 73.9,
-    "Research Environment Score": 26.4,
-    "Teaching Score": 23.8
+    "international_outlook": 73.9,
+    "research_environment": 26.4,
+    "teaching_score": 23.8
   },
   {
     "rank": 251,
-    "ranking-institution-title": "Amirkabir University of Technology",
+    "ranking_institution_title": "Amirkabir University of Technology",
     "location": "Iran",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 79.6,
     "Industry Score": 89.6,
-    "International Outlook": 47.1,
-    "Research Environment Score": 27.2,
-    "Teaching Score": 17.9
+    "international_outlook": 47.1,
+    "research_environment": 27.2,
+    "teaching_score": 17.9
   },
   {
     "rank": 252,
-    "ranking-institution-title": "University of Arizona",
+    "ranking_institution_title": "University of Arizona",
     "location": "United States",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 74.4,
     "Industry Score": 67.6,
-    "International Outlook": 40.2,
-    "Research Environment Score": 34.5,
-    "Teaching Score": 26.4
+    "international_outlook": 40.2,
+    "research_environment": 34.5,
+    "teaching_score": 26.4
   },
   {
     "rank": 253,
-    "ranking-institution-title": "Birkbeck, University of London",
+    "ranking_institution_title": "Birkbeck, University of London",
     "location": "United Kingdom",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 74.3,
     "Industry Score": 67.9,
-    "International Outlook": 93.3,
-    "Research Environment Score": 19.7,
-    "Teaching Score": 21.8
+    "international_outlook": 93.3,
+    "research_environment": 19.7,
+    "teaching_score": 21.8
   },
   {
     "rank": 254,
-    "ranking-institution-title": "Bournemouth University",
+    "ranking_institution_title": "Bournemouth University",
     "location": "United Kingdom",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 81.6,
     "Industry Score": 48.5,
-    "International Outlook": 88.4,
-    "Research Environment Score": 21.1,
-    "Teaching Score": 18.4
+    "international_outlook": 88.4,
+    "research_environment": 21.1,
+    "teaching_score": 18.4
   },
   {
     "rank": 255,
-    "ranking-institution-title": "Brunel University London",
+    "ranking_institution_title": "Brunel University London",
     "location": "United Kingdom",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 74.7,
     "Industry Score": 64.1,
-    "International Outlook": 97.5,
-    "Research Environment Score": 22.2,
-    "Teaching Score": 22.4
+    "international_outlook": 97.5,
+    "research_environment": 22.2,
+    "teaching_score": 22.4
   },
   {
     "rank": 256,
-    "ranking-institution-title": "Caâ€™ Foscari University of Venice",
+    "ranking_institution_title": "Caâ€™ Foscari University of Venice",
     "location": "Italy",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 65,
     "Industry Score": 88.9,
-    "International Outlook": 50.4,
-    "Research Environment Score": 26.4,
-    "Teaching Score": 29.5
+    "international_outlook": 50.4,
+    "research_environment": 26.4,
+    "teaching_score": 29.5
   },
   {
     "rank": 257,
-    "ranking-institution-title": "University of Calgary",
+    "ranking_institution_title": "University of Calgary",
     "location": "Canada",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 74.1,
     "Industry Score": 77.8,
-    "International Outlook": 85.2,
-    "Research Environment Score": 25.4,
-    "Teaching Score": 18.5
+    "international_outlook": 85.2,
+    "research_environment": 25.4,
+    "teaching_score": 18.5
   },
   {
     "rank": 258,
-    "ranking-institution-title": "University of Cape Town",
+    "ranking_institution_title": "University of Cape Town",
     "location": "South Africa",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 60.4,
     "Industry Score": 47.2,
-    "International Outlook": 67.9,
-    "Research Environment Score": 33.7,
-    "Teaching Score": 30.5
+    "international_outlook": 67.9,
+    "research_environment": 33.7,
+    "teaching_score": 30.5
   },
   {
     "rank": 259,
-    "ranking-institution-title": "University of Central Florida",
+    "ranking_institution_title": "University of Central Florida",
     "location": "United States",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 74.5,
     "Industry Score": 67.9,
-    "International Outlook": 43.2,
-    "Research Environment Score": 31.3,
-    "Teaching Score": 28.5
+    "international_outlook": 43.2,
+    "research_environment": 31.3,
+    "teaching_score": 28.5
   },
   {
     "rank": 260,
-    "ranking-institution-title": "University of Colorado Boulder",
+    "ranking_institution_title": "University of Colorado Boulder",
     "location": "United States",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 77.4,
     "Industry Score": 67.5,
-    "International Outlook": 48.9,
-    "Research Environment Score": 26.9,
-    "Teaching Score": 24.4
+    "international_outlook": 48.9,
+    "research_environment": 26.9,
+    "teaching_score": 24.4
   },
   {
     "rank": 261,
-    "ranking-institution-title": "University of CÃ´te dâ€™Azur",
+    "ranking_institution_title": "University of CÃ´te dâ€™Azur",
     "location": "France",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 58,
     "Industry Score": 19.5,
-    "International Outlook": 70.4,
-    "Research Environment Score": 29.4,
-    "Teaching Score": 37.3
+    "international_outlook": 70.4,
+    "research_environment": 29.4,
+    "teaching_score": 37.3
   },
   {
     "rank": 262,
-    "ranking-institution-title": "University of East Anglia",
+    "ranking_institution_title": "University of East Anglia",
     "location": "United Kingdom",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 80,
     "Industry Score": 31.6,
-    "International Outlook": 94.9,
-    "Research Environment Score": 22.9,
-    "Teaching Score": 21.9
+    "international_outlook": 94.9,
+    "research_environment": 22.9,
+    "teaching_score": 21.9
   },
   {
     "rank": 263,
-    "ranking-institution-title": "Eastern Mediterranean University",
+    "ranking_institution_title": "Eastern Mediterranean University",
     "location": "Northern Cyprus",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 84.1,
     "Industry Score": 60.4,
-    "International Outlook": 71.5,
-    "Research Environment Score": 14.7,
-    "Teaching Score": 24.6
+    "international_outlook": 71.5,
+    "research_environment": 14.7,
+    "teaching_score": 24.6
   },
   {
     "rank": 264,
-    "ranking-institution-title": "Emory University",
+    "ranking_institution_title": "Emory University",
     "location": "United States",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 59.5,
     "Industry Score": 67.5,
-    "International Outlook": 79,
-    "Research Environment Score": 21.7,
-    "Teaching Score": 33.8
+    "international_outlook": 79,
+    "research_environment": 21.7,
+    "teaching_score": 33.8
   },
   {
     "rank": 265,
-    "ranking-institution-title": "University of Granada",
+    "ranking_institution_title": "University of Granada",
     "location": "Spain",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 87.4,
     "Industry Score": 51.1,
-    "International Outlook": 48.1,
-    "Research Environment Score": 21,
-    "Teaching Score": 24.2
+    "international_outlook": 48.1,
+    "research_environment": 21,
+    "teaching_score": 24.2
   },
   {
     "rank": 266,
-    "ranking-institution-title": "Heriot-Watt University",
+    "ranking_institution_title": "Heriot-Watt University",
     "location": "United Kingdom",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 68.4,
     "Industry Score": 68.5,
-    "International Outlook": 93.5,
-    "Research Environment Score": 23.6,
-    "Teaching Score": 21
+    "international_outlook": 93.5,
+    "research_environment": 23.6,
+    "teaching_score": 21
   },
   {
     "rank": 267,
-    "ranking-institution-title": "University of Hohenheim",
+    "ranking_institution_title": "University of Hohenheim",
     "location": "Germany",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 79.3,
     "Industry Score": 75.4,
-    "International Outlook": 48.8,
-    "Research Environment Score": 28.7,
-    "Teaching Score": 24.8
+    "international_outlook": 48.8,
+    "research_environment": 28.7,
+    "teaching_score": 24.8
   },
   {
     "rank": 268,
-    "ranking-institution-title": "Hong Kong Baptist University",
+    "ranking_institution_title": "Hong Kong Baptist University",
     "location": "Hong Kong",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 75.9,
     "Industry Score": 68.9,
-    "International Outlook": 95.6,
-    "Research Environment Score": 15.9,
-    "Teaching Score": 21.1
+    "international_outlook": 95.6,
+    "research_environment": 15.9,
+    "teaching_score": 21.1
   },
   {
     "rank": 269,
-    "ranking-institution-title": "University of Hull",
+    "ranking_institution_title": "University of Hull",
     "location": "United Kingdom",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 72.7,
     "Industry Score": 59.4,
-    "International Outlook": 93.6,
-    "Research Environment Score": 18.6,
-    "Teaching Score": 26.2
+    "international_outlook": 93.6,
+    "research_environment": 18.6,
+    "teaching_score": 26.2
   },
   {
     "rank": 270,
-    "ranking-institution-title": "Iowa State University",
+    "ranking_institution_title": "Iowa State University",
     "location": "United States",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 67.6,
     "Industry Score": 82.4,
-    "International Outlook": 44,
-    "Research Environment Score": 31.2,
-    "Teaching Score": 28.4
+    "international_outlook": 44,
+    "research_environment": 31.2,
+    "teaching_score": 28.4
   },
   {
     "rank": 271,
-    "ranking-institution-title": "University of Kent",
+    "ranking_institution_title": "University of Kent",
     "location": "United Kingdom",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 80.5,
     "Industry Score": 18,
-    "International Outlook": 91.4,
-    "Research Environment Score": 19.4,
-    "Teaching Score": 21.2
+    "international_outlook": 91.4,
+    "research_environment": 19.4,
+    "teaching_score": 21.2
   },
   {
     "rank": 272,
-    "ranking-institution-title": "University of Konstanz",
+    "ranking_institution_title": "University of Konstanz",
     "location": "Germany",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 54.4,
     "Industry Score": 90.2,
-    "International Outlook": 60.4,
-    "Research Environment Score": 36.2,
-    "Teaching Score": 33.2
+    "international_outlook": 60.4,
+    "research_environment": 36.2,
+    "teaching_score": 33.2
   },
   {
     "rank": 273,
-    "ranking-institution-title": "La Trobe University",
+    "ranking_institution_title": "La Trobe University",
     "location": "Australia",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 77.4,
     "Industry Score": 59.2,
-    "International Outlook": 90.6,
-    "Research Environment Score": 24.7,
-    "Teaching Score": 18.8
+    "international_outlook": 90.6,
+    "research_environment": 24.7,
+    "teaching_score": 18.8
   },
   {
     "rank": 274,
-    "ranking-institution-title": "Lebanese American University",
+    "ranking_institution_title": "Lebanese American University",
     "location": "Lebanon",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 93,
     "Industry Score": 34.1,
-    "International Outlook": 79.2,
-    "Research Environment Score": 14.9,
-    "Teaching Score": 17.4
+    "international_outlook": 79.2,
+    "research_environment": 14.9,
+    "teaching_score": 17.4
   },
   {
     "rank": 275,
-    "ranking-institution-title": "Leuphana University of LÃ¼neburg",
+    "ranking_institution_title": "Leuphana University of LÃ¼neburg",
     "location": "Germany",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 89.5,
     "Industry Score": 35.4,
-    "International Outlook": 48.7,
-    "Research Environment Score": 23.4,
-    "Teaching Score": 23.8
+    "international_outlook": 48.7,
+    "research_environment": 23.4,
+    "teaching_score": 23.8
   },
   {
     "rank": 276,
-    "ranking-institution-title": "UniversitÃ© Libre de Bruxelles",
+    "ranking_institution_title": "UniversitÃ© Libre de Bruxelles",
     "location": "Belgium",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 63.9,
     "Industry Score": 70.3,
-    "International Outlook": 76.4,
-    "Research Environment Score": 32.7,
-    "Teaching Score": 23.9
+    "international_outlook": 76.4,
+    "research_environment": 32.7,
+    "teaching_score": 23.9
   },
   {
     "rank": 277,
-    "ranking-institution-title": "Lincoln University",
+    "ranking_institution_title": "Lincoln University",
     "location": "New Zealand",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 82.1,
     "Industry Score": 24.3,
-    "International Outlook": 90.3,
-    "Research Environment Score": 19.1,
-    "Teaching Score": 24.1
+    "international_outlook": 90.3,
+    "research_environment": 19.1,
+    "teaching_score": 24.1
   },
   {
     "rank": 278,
-    "ranking-institution-title": "Macau University of Science and Technology",
+    "ranking_institution_title": "Macau University of Science and Technology",
     "location": "Macao",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 71.7,
     "Industry Score": 75.4,
-    "International Outlook": 90.8,
-    "Research Environment Score": 19.3,
-    "Teaching Score": 26.6
+    "international_outlook": 90.8,
+    "research_environment": 19.3,
+    "teaching_score": 26.6
   },
   {
     "rank": 279,
-    "ranking-institution-title": "University of Miami",
+    "ranking_institution_title": "University of Miami",
     "location": "United States",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 78.8,
     "Industry Score": 67.5,
-    "International Outlook": 70.6,
-    "Research Environment Score": 17.8,
-    "Teaching Score": 25.8
+    "international_outlook": 70.6,
+    "research_environment": 17.8,
+    "teaching_score": 25.8
   },
   {
     "rank": 280,
-    "ranking-institution-title": "Monterrey Institute of Technology",
+    "ranking_institution_title": "Monterrey Institute of Technology",
     "location": "Mexico",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 72.2,
     "Industry Score": 52.9,
-    "International Outlook": 67.1,
-    "Research Environment Score": 19.4,
-    "Teaching Score": 31.2
+    "international_outlook": 67.1,
+    "research_environment": 19.4,
+    "teaching_score": 31.2
   },
   {
     "rank": 281,
-    "ranking-institution-title": "Norwegian University of Science and Technology",
+    "ranking_institution_title": "Norwegian University of Science and Technology",
     "location": "Norway",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 74.7,
     "Industry Score": 72.1,
-    "International Outlook": 53.4,
-    "Research Environment Score": 27,
-    "Teaching Score": 25.6
+    "international_outlook": 53.4,
+    "research_environment": 27,
+    "teaching_score": 25.6
   },
   {
     "rank": 282,
-    "ranking-institution-title": "Osaka University",
+    "ranking_institution_title": "Osaka University",
     "location": "Japan",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 36.1,
     "Industry Score": 48,
-    "International Outlook": 61.7,
-    "Research Environment Score": 42.4,
-    "Teaching Score": 45
+    "international_outlook": 61.7,
+    "research_environment": 42.4,
+    "teaching_score": 45
   },
   {
     "rank": 283,
-    "ranking-institution-title": "University of Ottawa",
+    "ranking_institution_title": "University of Ottawa",
     "location": "Canada",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 67.5,
     "Industry Score": 61.4,
-    "International Outlook": 90.2,
-    "Research Environment Score": 28.3,
-    "Teaching Score": 23.3
+    "international_outlook": 90.2,
+    "research_environment": 28.3,
+    "teaching_score": 23.3
   },
   {
     "rank": 284,
-    "ranking-institution-title": "PanthÃ©on-Sorbonne University â€“ Paris 1",
+    "ranking_institution_title": "PanthÃ©on-Sorbonne University â€“ Paris 1",
     "location": "France",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 49.3,
     "Industry Score": 50.3,
-    "International Outlook": 67,
-    "Research Environment Score": 35.4,
-    "Teaching Score": 39.9
+    "international_outlook": 67,
+    "research_environment": 35.4,
+    "teaching_score": 39.9
   },
   {
     "rank": 285,
-    "ranking-institution-title": "UniversitÃ© Paris-Saclay",
+    "ranking_institution_title": "UniversitÃ© Paris-Saclay",
     "location": "France",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 52.6,
     "Industry Score": 34.9,
-    "International Outlook": 65.5,
-    "Research Environment Score": 41.4,
-    "Teaching Score": 31.2
+    "international_outlook": 65.5,
+    "research_environment": 41.4,
+    "teaching_score": 31.2
   },
   {
     "rank": 286,
-    "ranking-institution-title": "University of Passau",
+    "ranking_institution_title": "University of Passau",
     "location": "Germany",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 66.9,
     "Industry Score": 64,
-    "International Outlook": 55.2,
-    "Research Environment Score": 31.6,
-    "Teaching Score": 27.8
+    "international_outlook": 55.2,
+    "research_environment": 31.6,
+    "teaching_score": 27.8
   },
   {
     "rank": 287,
-    "ranking-institution-title": "University of Plymouth",
+    "ranking_institution_title": "University of Plymouth",
     "location": "United Kingdom",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 95.2,
     "Industry Score": 48.4,
-    "International Outlook": 92.9,
-    "Research Environment Score": 15.6,
-    "Teaching Score": 16.4
+    "international_outlook": 92.9,
+    "research_environment": 15.6,
+    "teaching_score": 16.4
   },
   {
     "rank": 288,
-    "ranking-institution-title": "University of Portsmouth",
+    "ranking_institution_title": "University of Portsmouth",
     "location": "United Kingdom",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 84,
     "Industry Score": 50,
-    "International Outlook": 94,
-    "Research Environment Score": 18.7,
-    "Teaching Score": 21.3
+    "international_outlook": 94,
+    "research_environment": 18.7,
+    "teaching_score": 21.3
   },
   {
     "rank": 289,
-    "ranking-institution-title": "University of Rome II â€“ Tor Vergata",
+    "ranking_institution_title": "University of Rome II â€“ Tor Vergata",
     "location": "Italy",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 64,
     "Industry Score": 89.8,
-    "International Outlook": 53.1,
-    "Research Environment Score": 28.9,
-    "Teaching Score": 30.9
+    "international_outlook": 53.1,
+    "research_environment": 28.9,
+    "teaching_score": 30.9
   },
   {
     "rank": 290,
-    "ranking-institution-title": "SabancÄ± University",
+    "ranking_institution_title": "SabancÄ± University",
     "location": "Turkey",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 53.1,
     "Industry Score": 97.3,
-    "International Outlook": 68.6,
-    "Research Environment Score": 29.6,
-    "Teaching Score": 33
+    "international_outlook": 68.6,
+    "research_environment": 29.6,
+    "teaching_score": 33
   },
   {
     "rank": 291,
-    "ranking-institution-title": "Shanghai University",
+    "ranking_institution_title": "Shanghai University",
     "location": "China",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 75.5,
     "Industry Score": 47.8,
-    "International Outlook": 63.1,
-    "Research Environment Score": 26.4,
-    "Teaching Score": 25.6
+    "international_outlook": 63.1,
+    "research_environment": 26.4,
+    "teaching_score": 25.6
   },
   {
     "rank": 292,
-    "ranking-institution-title": "Simon Fraser University",
+    "ranking_institution_title": "Simon Fraser University",
     "location": "Canada",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 69.2,
     "Industry Score": 55.8,
-    "International Outlook": 96.9,
-    "Research Environment Score": 24,
-    "Teaching Score": 20.9
+    "international_outlook": 96.9,
+    "research_environment": 24,
+    "teaching_score": 20.9
   },
   {
     "rank": 293,
-    "ranking-institution-title": "University of South Carolina-Columbia",
+    "ranking_institution_title": "University of South Carolina-Columbia",
     "location": "United States",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 85.8,
     "Industry Score": 39.2,
-    "International Outlook": 59.4,
-    "Research Environment Score": 23.6,
-    "Teaching Score": 24.8
+    "international_outlook": 59.4,
+    "research_environment": 23.6,
+    "teaching_score": 24.8
   },
   {
     "rank": 294,
-    "ranking-institution-title": "University of St Andrews",
+    "ranking_institution_title": "University of St Andrews",
     "location": "United Kingdom",
     "Overall scores": "41.7â€“44.2",
     "Research Quality Score": 65.4,
     "Industry Score": 58.8,
-    "International Outlook": 95.7,
-    "Research Environment Score": 18.6,
-    "Teaching Score": 33
+    "international_outlook": 95.7,
+    "research_environment": 18.6,
+    "teaching_score": 33
   }
 ]
 

@@ -3,25 +3,25 @@ import { FlatList, StyleSheet, Text, TextInput, View, SafeAreaView } from 'react
 import { db } from './db';
 import { set, ref, get } from 'firebase/database';
 import { useEffect, useState } from 'react';
-import colleges from './colleges';
+import worldRanking from './worldranking';
 
 export default function App() {
-  const [collegesData, setCollegesData] = useState([]);
+  const [rankingData, setRankingData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [searchText, setSearchText] = useState('');
 
   useEffect(() => {
-    get(ref(db, 'colleges'))
+    get(ref(db, 'rankings'))
       .then((snapshot) => {
         if (snapshot.exists()) {
-          setCollegesData(snapshot.val());
+          setRankingData(snapshot.val());
           setFilteredData(snapshot.val());
         } else {
-          for (let i = 0; i < colleges.length; i++) {
-            set(ref(db, `colleges/${i}`), colleges[i]);
+          for (let i = 0; i < rankingData.length; i++) {
+            set(ref(db, `rankingData/${i}`), rankingData[i]);
           }
-          setCollegesData(colleges);
-          setFilteredData(colleges);
+          setRankingData(worldRanking);
+          setFilteredData(worldRanking);
         }
       })
       .catch((error) => {
@@ -32,14 +32,11 @@ export default function App() {
   const handleSearch = (text) => {
     setSearchText(text);
     const filtered = collegesData.filter((item) =>
-      item.college_name.toLowerCase().includes(text.toLowerCase()) ||
-      item.score_type.toLowerCase().includes(text.toLowerCase()) ||
-      item.seat_type.toLowerCase().includes(text.toLowerCase()) ||
-      String(item.sum).toLowerCase().includes(text.toLowerCase()) ||
-      String(item.count).toLowerCase().includes(text.toLowerCase()) ||
-      String(item.max).toLowerCase().includes(text.toLowerCase()) ||
-      String(item.min).toLowerCase().includes(text.toLowerCase()) ||
-      String(item.mean).toLowerCase().includes(text.toLowerCase())
+      item.ranking_institution_title.toLowerCase().includes(text.toLowerCase()) ||
+      String(item.rank).toLowerCase().includes(text.toLowerCase()) ||
+      String(item.location).toLowerCase().includes(text.toLowerCase()) ||
+      String(item.research_environment).toLowerCase().includes(text.toLowerCase()) ||
+      String(item.teaching_score).toLowerCase().includes(text.toLowerCase())
     );
     setFilteredData(filtered);
   };
@@ -47,7 +44,7 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.headerText}>College Data</Text>
+        <Text style={styles.headerText}>Institution Data</Text>
       </View>
       <TextInput
         style={styles.searchInput}
@@ -59,14 +56,11 @@ export default function App() {
         data={filteredData}
         renderItem={({ item }) => (
           <View style={styles.itemContainer}>
-            <Text style={styles.name}>{item.college_name}</Text>
-            <Text style={styles.score}>{item.score_type}</Text>
-            <Text style={styles.seat}>{item.seat_type}</Text>
-            <Text style={styles.numeric}>SUM : {item.sum}</Text>
-            <Text style={styles.numeric}>Count: {item.count}</Text>
-            <Text style={styles.numeric}>Max: {item.max}</Text>
-            <Text style={styles.numeric}>Min: {item.min}</Text>
-            <Text style={styles.numeric}>Mean: {item.mean}</Text>
+            <Text style={styles.name}>{item.ranking_institution_title}</Text>
+            <Text style={styles.score}>{item.rank}</Text>
+            <Text style={styles.seat}>{item.location}</Text>
+            <Text style={styles.numeric}>Research Environemnt : {item.research_environment}</Text>
+            <Text style={styles.numeric}>Teaching Score: {item.teaching_score}</Text>
           </View>
         )}
         keyExtractor={(item, index) => index.toString()}
